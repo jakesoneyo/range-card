@@ -1,0 +1,67 @@
+// RANGE CARD 데이터 모델. PLAN.md 원안 그대로 — 4개 모델, RBAC enum 없음
+// (Admin 레코드 존재 자체가 유일한 권한 타입).
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Map {
+  id          String       @id @default(cuid())
+  slug        String       @unique // erangel | miramar | rondo | taego
+  name        String
+  sizeM       Int // 8000
+  imageUrl    String
+  imageSizePx Int
+  spawnPoints SpawnPoint[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+enum SpawnPointType {
+  VEHICLE_FIXED
+  BOAT_FIXED
+  SECRET_ROOM
+  BUNKER
+}
+
+model SpawnPoint {
+  id             String         @id @default(cuid())
+  mapId          String
+  map            Map            @relation(fields: [mapId], references: [id], onDelete: Cascade)
+  type           SpawnPointType
+  x              Float
+  y              Float
+  label          String
+  description    String?        @db.Text
+  sourceUrl      String? // 큐레이션 출처(교차검증용, 이미지 자체를 복사하지 않았다는 근거 기록)
+  isActive       Boolean        @default(true)
+  lastVerifiedAt DateTime?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  // 공개 GET /maps/:slug/spawn-points?type=... (맵별 타입별 활성 레이어 조회)의 핵심 접근 경로
+  @@index([mapId, type, isActive])
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  username     String   @unique // 데모 계정: "admin"
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
+
+// 전적검색 캐시 — 공식 API 10req/분 예산을 보호하는 핵심 장치
+model PlayerStatsCache {
+  id         String   @id @default(cuid())
+  shard      String // 예: "steam", "kakao"
+  playerName String
+  seasonId   String
+  payload    Json // API 원본 응답(JSON:API) 그대로 저장
+  fetchedAt  DateTime @default(now())
+
+  @@unique([shard, playerName, seasonId])
+}
