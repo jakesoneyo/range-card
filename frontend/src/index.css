@@ -1,111 +1,105 @@
+/**
+ * 디자인 토큰 (DESIGN 확정안: Variant E · PUBG Game UI 톤).
+ * Tailwind v4 CSS-first 설정 — @theme 블록에 등록한 --color-* 토큰이 곧
+ * bg-*, text-*, border-* 유틸리티가 된다(별도 tailwind.config.js 불필요).
+ * 다크 전용(라이트 모드 없음) — 콘셉트가 야간/HUD라 라이트 변형을 만들지 않는다.
+ * 인게임 UI(블랙+골드, 각진 컷 코너)의 색/형태 언어만 차용, KRAFTON 브랜드 자산은 쓰지 않음.
+ */
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #131110;
+  --color-panel: #1c1917;
+  --color-panel-2: #211d19;
+  --color-ink: #f1ece2;
+  --color-sub: #9c9188;
+  --color-accent: #e0a52c;
+  --color-border: #332c22;
+
+  /* 마커 시맨틱 컬러 — 브랜드 accent와 별개 의미. accent(골드)는 고정차량과 값이 같지만
+     "강조색"과 "차량 마커색"은 개념이 달라 별도 토큰(marker-vehicle)으로 둔다. */
+  --color-marker-vehicle: #e0a52c;
+  --color-marker-boat: #4d8fb8;
+  --color-marker-secret: #e2483a;
+
+  --font-display: "Oswald", "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  --font-body:
+    "Pretendard", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+/* 워드마크/배지류 전용 — 본문에는 스큐 금지(Shape Consistency Lock 준수). */
+.font-wordmark {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  transform: skewX(-6deg);
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
+/* 숫자/좌표/사거리값 전용. */
+.font-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+/* 카드/배지/버튼 공용 대각선 컷 코너 (Shape Consistency Lock). */
+.clip-corner {
+  clip-path: polygon(
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.clip-corner-sm {
+  clip-path: polygon(
+    6px 0,
+    100% 0,
+    100% calc(100% - 6px),
+    calc(100% - 6px) 100%,
+    0 100%,
+    0 6px
+  );
+}
+
+/* Leaflet 기본 팝업/컨트롤은 라이트 테마 전제라 Variant E 다크 톤으로 덮어쓴다. */
+.leaflet-container {
+  background: var(--color-bg);
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--color-panel);
+  color: var(--color-ink);
+  border: 1px solid var(--color-border);
+}
+.leaflet-popup-close-button {
+  color: var(--color-sub) !important;
+}
+.leaflet-bar a {
+  background: var(--color-panel);
+  color: var(--color-ink);
+  border-color: var(--color-border) !important;
+}
+.leaflet-bar a:hover {
+  background: var(--color-panel-2);
 }
