@@ -44,7 +44,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
   private extractMessage(body: unknown, exception: unknown): string {
     if (typeof body === 'string') return body;
     if (body && typeof body === 'object' && 'message' in body) {
-      const m = (body as { message: unknown }).message;
+      const m = body.message;
       return Array.isArray(m) ? m.join(', ') : String(m);
     }
     if (exception instanceof Error) return exception.message;
