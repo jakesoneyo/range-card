@@ -146,6 +146,26 @@
       "sourceUrl": "https://namu.wiki/w/에란겔",
       "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
       "isActive": true
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 358,
+      "y": 783,
+      "label": "병원 차고집",
+      "description": "게오르고폴 남쪽 병원 건물 동쪽 언덕에 있는 차고집. 100% 고정은 아니지만 확률이 높아 게오르고폴에서 차를 못 구한 유저들이 몰린다.",
+      "sourceUrl": "https://namu.wiki/w/에란겔",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1009,
+      "y": 804,
+      "label": "학교 차고집",
+      "description": "학교 마을 남쪽, 아파트 단지 인근의 차고집. 초반 교전이 잦은 학교 특성상 탈것 쟁탈전이 자주 벌어진다.",
+      "sourceUrl": "https://namu.wiki/w/에란겔",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
     }
   ]
 }

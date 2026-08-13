@@ -9,73 +9,163 @@
   "spawnPoints": [
     {
       "type": "VEHICLE_FIXED",
-      "x": 350,
-      "y": 350,
+      "x": 280,
+      "y": 600,
       "label": "해무사 앞 고정 차량",
       "description": "북서쪽 섬 끝자락 해무사 앞 차고지에 고정젠 차량이 스폰된다.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.379Z",
       "isActive": true
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1300,
-      "y": 1300,
+      "x": 800,
+      "y": 1350,
       "label": "학교 뒷마을 고정 차량",
       "description": "남동쪽 반도 학교 뒤편 마을 차고에 고정 스폰되는 차량.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
       "isActive": true
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1750,
-      "y": 1400,
+      "x": 1400,
+      "y": 300,
       "label": "삼포조선 화물선 옆 고정 보트",
       "description": "삼포조선(조선소) 화물선 옆에 이동수단으로 배치된 고정 보트.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
       "isActive": true
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1600,
-      "y": 1750,
+      "x": 150,
+      "y": 1100,
       "label": "하포 해안 고정 보트",
       "description": "남동부 해안 마을 하포 인근 해안에 스폰되는 보트.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
       "isActive": true
     },
     {
       "type": "SECRET_ROOM",
-      "x": 300,
-      "y": 550,
+      "x": 600,
+      "y": 600,
       "label": "고덕 비밀의 방",
       "description": "북서쪽 섬 대도시 고덕 인근의 비밀의 방. 파란 양철 지붕에 천막이 걸쳐진 창고형 건물이 표식이다.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
       "isActive": true
     },
     {
       "type": "SECRET_ROOM",
-      "x": 450,
-      "y": 300,
+      "x": 900,
+      "y": 260,
       "label": "군부대 비밀의 방",
       "description": "북서쪽 섬 군부대 인근의 비밀의 방.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
       "isActive": true
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1400,
-      "y": 1200,
+      "x": 830,
+      "y": 1240,
       "label": "호산 비밀의 방",
       "description": "남동쪽 반도 최대 도시 호산 인근의 비밀의 방. 남쪽 대륙의 비밀의 방은 대도시 인근에 위치하는 경향이 있다.",
       "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
       "isActive": true
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 235,
+      "y": 579,
+      "label": "해무사 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 922,
+      "y": 230,
+      "label": "군부대 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1091,
+      "y": 584,
+      "label": "용천 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1454,
+      "y": 328,
+      "label": "조선소 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1797,
+      "y": 768,
+      "label": "공항 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1648,
+      "y": 1101,
+      "label": "강능 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 845,
+      "y": 1223,
+      "label": "호산 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 999,
+      "y": 1454,
+      "label": "송암 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 189,
+      "y": 1075,
+      "label": "하포 차고집",
+      "description": "인벤 공략 기사가 정리한 태이고 24개 차고 포인트 중 하나. 고덕·호산·조선소는 마을 규모상 2곳씩 있다고 언급됨.",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
     }
   ]
 }
