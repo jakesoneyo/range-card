@@ -6,11 +6,11 @@ import { SpawnPointType } from '@prisma/client';
 export const CreateSpawnPointSchema = z.object({
   mapId: z.string().min(1),
   type: z.nativeEnum(SpawnPointType),
-  x: z.number(),
-  y: z.number(),
+  x: z.number().min(0),
+  y: z.number().min(0),
   label: z.string().min(1),
   description: z.string().optional(),
-  sourceUrl: z.string().optional(),
+  sourceUrl: z.string().url().optional().or(z.literal('')),
   isActive: z.boolean().optional(),
   lastVerifiedAt: z.coerce.date().optional(),
 });
