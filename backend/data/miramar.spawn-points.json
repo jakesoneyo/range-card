@@ -38,36 +38,6 @@
       "isActive": true
     },
     {
-      "type": "BOAT_FIXED",
-      "x": 300,
-      "y": 1480,
-      "label": "바예 델 마르 해안 고정 보트",
-      "description": "동남부 해안 도시 바예 델 마르 항구 인근 고정 스폰 보트.",
-      "sourceUrl": "https://namu.wiki/w/미라마",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 1490,
-      "y": 1520,
-      "label": "푸에르토 파라이소 고정 보트",
-      "description": "남부 항구 마을 푸에르토 파라이소의 고정 스폰 보트.",
-      "sourceUrl": "https://namu.wiki/w/미라마",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 1850,
-      "y": 720,
-      "label": "캄포 밀리타르 해안 고정 보트",
-      "description": "맵 북동부 캄포 밀리타르 인근 해안에 스폰되는 보트. 지도상 캄포 밀리타르 자체는 내륙 산악지형이라, 가장 가까운 실제 해안선(엘 아사하르 동쪽)에 배치했다.",
-      "sourceUrl": "https://namu.wiki/w/미라마",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
       "type": "SECRET_ROOM",
       "x": 280,
       "y": 520,
@@ -116,6 +86,106 @@
       "sourceUrl": "https://namu.wiki/w/미라마",
       "isActive": true,
       "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1954,
+      "y": 822,
+      "label": "엘아사하르 북동 해안 고정 보트",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1736,
+      "y": 976,
+      "label": "트럭스탑 인근 고정 보트",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1830,
+      "y": 1098,
+      "label": "동부 군도 고정 보트(1번)",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1836,
+      "y": 1254,
+      "label": "동부 군도 고정 보트(2번)",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1596,
+      "y": 1556,
+      "label": "푸에르토파라이소 고정 보트",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 376,
+      "y": 1538,
+      "label": "바예델마르 고정 보트",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 618,
+      "y": 1740,
+      "label": "남부 해안 고정 보트(1번)",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 774,
+      "y": 1682,
+      "label": "남부 해안 고정 보트(2번)",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1018,
+      "y": 1734,
+      "label": "리조트 인근 고정 보트",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 264,
+      "y": 1874,
+      "label": "프리즌 고정 보트",
+      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
     }
   ]
 }
