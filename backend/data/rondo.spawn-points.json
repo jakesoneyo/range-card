@@ -3,30 +3,30 @@
     "slug": "rondo",
     "name": "Rondo",
     "sizeM": 8000,
-    "imageUrl": "/maps/rondo-placeholder.jpg",
-    "imageSizePx": 2048
+    "imageUrl": "/maps/rondo.webp",
+    "imageSizePx": 1008
   },
   "spawnPoints": [
     {
       "type": "VEHICLE_FIXED",
-      "x": 700,
-      "y": 500,
+      "x": 345,
+      "y": 246,
       "label": "중앙 지역 고정 차량 (placeholder, 실좌표 아님)",
       "description": "신맵 특성상 자료가 부족해 실좌표 큐레이션 전 임시값. 시드 스크립트/API 흐름 검증용.",
       "sourceUrl": ""
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1600,
-      "y": 400,
+      "x": 788,
+      "y": 197,
       "label": "북부 수로 고정 보트 (placeholder, 실좌표 아님)",
       "description": "신맵 특성상 자료가 부족해 실좌표 큐레이션 전 임시값. 시드 스크립트/API 흐름 검증용.",
       "sourceUrl": ""
     },
     {
       "type": "BUNKER",
-      "x": 1000,
-      "y": 1400,
+      "x": 492,
+      "y": 689,
       "label": "남부 지하벙커 (placeholder, 실좌표 아님)",
       "description": "신맵 특성상 자료가 부족해 실좌표 큐레이션 전 임시값. 시드 스크립트/API 흐름 검증용.",
       "sourceUrl": ""

@@ -3,38 +3,38 @@
     "slug": "erangel",
     "name": "Erangel",
     "sizeM": 8000,
-    "imageUrl": "/maps/erangel-placeholder.jpg",
-    "imageSizePx": 2048
+    "imageUrl": "/maps/erangel.webp",
+    "imageSizePx": 1008
   },
   "spawnPoints": [
     {
       "type": "VEHICLE_FIXED",
-      "x": 620,
-      "y": 480,
+      "x": 305,
+      "y": 236,
       "label": "조지타운 인근 고정 차량 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1400,
-      "y": 300,
+      "x": 689,
+      "y": 148,
       "label": "동부 해안 고정 보트 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
     },
     {
       "type": "SECRET_ROOM",
-      "x": 980,
-      "y": 1120,
+      "x": 482,
+      "y": 551,
       "label": "밀리터리 베이스 비밀의 방 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
     },
     {
       "type": "BUNKER",
-      "x": 1700,
-      "y": 1600,
+      "x": 837,
+      "y": 788,
       "label": "남동부 지하벙커 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
