@@ -3,6 +3,7 @@
  */
 import { useState } from "react";
 import { usePlayerStatsSearch } from "../api/playerStats";
+import { getApiErrorMessage } from "../api/client";
 import type { PlayerShard } from "../lib/schemas";
 import { PlayerSearchBar } from "../components/player/PlayerSearchBar";
 import { PlayerStatsCard } from "../components/player/PlayerStatsCard";
@@ -38,7 +39,7 @@ export function PlayerSearchPage() {
           {isFetching && <p className="text-sm text-sub">검색 중...</p>}
           {isError && (
             <p className="text-sm text-marker-secret">
-              {(error as Error)?.message ??
+              {getApiErrorMessage(error) ||
                 "검색에 실패했습니다. 닉네임/샤드를 확인하세요."}
             </p>
           )}
