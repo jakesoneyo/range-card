@@ -34,13 +34,15 @@ export function AdminLoginModal({
 
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
-    void submit(username, password);
+    // 실패 시 mutateAsync가 reject하는데, 화면 에러 표시는 loginMutation.isError로 이미
+    // 처리되므로 여기서는 콘솔의 unhandled rejection만 막는다.
+    submit(username, password).catch(() => {});
   }
 
   function handleDemoLogin() {
     setUsername("admin");
     setPassword("admin");
-    void submit("admin", "admin");
+    submit("admin", "admin").catch(() => {});
   }
 
   return (
