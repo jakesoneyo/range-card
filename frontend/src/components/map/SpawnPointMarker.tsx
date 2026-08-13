@@ -3,7 +3,6 @@
  * Leaflet Marker는 컴포넌트 아이콘을 직접 지원하지 않아 divIcon HTML로 렌더링한다.
  */
 import { useMemo } from "react";
-import { renderToStaticMarkup } from "react-dom/server";
 import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
 import { pixelToLatLng } from "../../lib/geo";
@@ -16,11 +15,8 @@ import {
 import { Badge } from "../ui/Badge";
 
 function buildDivIcon(type: SpawnPoint["type"]) {
-  const html = renderToStaticMarkup(
-    <span
-      className={`block h-3.5 w-3.5 rotate-45 border border-ink/80 ${SPAWN_POINT_TYPE_DOT_CLASS[type]}`}
-    />,
-  );
+  // 마커 아이콘 span 하나뿐이라 react-dom/server를 번들에 끌어들이는 대신 문자열로 직접 생성.
+  const html = `<span class="block h-3.5 w-3.5 rotate-45 border border-ink/80 ${SPAWN_POINT_TYPE_DOT_CLASS[type]}"></span>`;
   return L.divIcon({
     html,
     className: "",
