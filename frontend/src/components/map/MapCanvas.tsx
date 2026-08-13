@@ -77,6 +77,12 @@ export function MapCanvas({
         maxBoundsViscosity={0.8}
         minZoom={-2}
         maxZoom={3}
+        // 정수 단위로만 줌 레벨을 스냅하면(기본값) fitBounds가 계산한 "꽉 채우는" 줌이
+        // 한 단계 아래로 내림되어 이미지가 뷰포트 가운데 작게 뜨는 문제가 생긴다.
+        // 0.25 단위로 더 세밀하게 스냅해서 실제로 꽉 차게 맞춘다.
+        zoomSnap={0.25}
+        zoomDelta={0.5}
+        scrollWheelZoom
         className="h-full w-full bg-panel-2"
         attributionControl={false}
       >

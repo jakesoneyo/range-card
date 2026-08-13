@@ -8,6 +8,7 @@ import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 import { PubgApiClient } from './pubg-api.client';
 import {
+  PubgApiError,
   PubgPlayerNotFoundError,
   PubgRateLimitedError,
 } from './pubg-api.errors';
@@ -41,7 +42,8 @@ export class PlayerStatsService {
    * 시즌 ID는 API 호출 전엔 알 수 없으므로, 캐시 키는 (shard, playerName)로 가장 최근 값을
    * 먼저 찾고 TTL만 검사한다(시즌은 몇 달에 한 번만 바뀌므로 이 근사가 실용적이다).
    * @throws NotFoundException 닉네임이 존재하지 않을 때(캐시에도 없을 때)
-   * @throws ServiceUnavailableException 공식 API가 레이트리밋(429)이고 폴백할 캐시도 없을 때
+   * @throws ServiceUnavailableException 공식 API가 레이트리밋(429)이고 폴백할 캐시도 없을 때,
+   *   또는 PUBG_API_KEY 미설정 등 연동 자체가 불가능할 때
    */
   async search(shard: string, name: string): Promise<PlayerStatsSearchResult> {
     const cached = await this.prisma.playerStatsCache.findFirst({
@@ -93,6 +95,11 @@ export class PlayerStatsService {
           );
           return { ...this.toResult(cached), stale: true };
         }
+        throw new ServiceUnavailableException(err.message);
+      }
+      if (err instanceof PubgApiError) {
+        // 키 미설정·현재시즌 조회 실패 등 "우리 쪽 PUBG 연동이 지금 응답할 수 없음" 부류 —
+        // 클라이언트 요청 자체는 잘못이 없으므로 500(우리 버그)이 아니라 503으로 알린다.
         throw new ServiceUnavailableException(err.message);
       }
       throw err;

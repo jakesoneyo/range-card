@@ -8,6 +8,7 @@ import {
   PLAYER_STATS_CACHE_TTL_MS,
 } from './player-stats.service';
 import {
+  PubgApiError,
   PubgPlayerNotFoundError,
   PubgRateLimitedError,
 } from './pubg-api.errors';
@@ -166,6 +167,18 @@ describe('PlayerStatsService', () => {
     prisma.playerStatsCache.findFirst.mockResolvedValue(null);
     pubgApiClient.fetchPlayerStats.mockRejectedValue(
       new PubgRateLimitedError(),
+    );
+
+    await expect(service.search('steam', 'shroud')).rejects.toThrow(
+      ServiceUnavailableException,
+    );
+  });
+
+  it('PUBG_API_KEY 미설정 등 연동 실패는 500이 아니라 ServiceUnavailableException', async () => {
+    const { service, prisma, pubgApiClient } = buildService();
+    prisma.playerStatsCache.findFirst.mockResolvedValue(null);
+    pubgApiClient.fetchPlayerStats.mockRejectedValue(
+      new PubgApiError('PUBG_API_KEY 환경변수가 설정되지 않았습니다.'),
     );
 
     await expect(service.search('steam', 'shroud')).rejects.toThrow(
