@@ -8,28 +8,24 @@
   },
   "spawnPoints": [
     {
-      "type": "VEHICLE_FIXED",
-      "x": 701,
-      "y": 500,
-      "label": "중앙 지역 고정 차량 (placeholder, 실좌표 아님)",
-      "description": "신맵 특성상 자료가 부족해 실좌표 큐레이션 전 임시값. 시드 스크립트/API 흐름 검증용.",
-      "sourceUrl": ""
+      "type": "BOAT_FIXED",
+      "x": 650,
+      "y": 1700,
+      "label": "린지앙 항구 고정 보트",
+      "description": "린지앙 마을의 항구·수상 레스토랑 양옆에 보트가 배치되어 있어 탈출/이동 수단으로 활용된다.",
+      "sourceUrl": "https://namu.wiki/w/론도(PUBG:%20BATTLEGROUNDS)",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1601,
-      "y": 400,
-      "label": "북부 수로 고정 보트 (placeholder, 실좌표 아님)",
-      "description": "신맵 특성상 자료가 부족해 실좌표 큐레이션 전 임시값. 시드 스크립트/API 흐름 검증용.",
-      "sourceUrl": ""
-    },
-    {
-      "type": "BUNKER",
-      "x": 1000,
-      "y": 1400,
-      "label": "남부 지하벙커 (placeholder, 실좌표 아님)",
-      "description": "신맵 특성상 자료가 부족해 실좌표 큐레이션 전 임시값. 시드 스크립트/API 흐름 검증용.",
-      "sourceUrl": ""
+      "x": 450,
+      "y": 1600,
+      "label": "롱호 호수 고정 보트",
+      "description": "맵 남서쪽에 위치한 호수(롱호) 인근의 보트 스폰 지점.",
+      "sourceUrl": "https://namu.wiki/w/론도(PUBG:%20BATTLEGROUNDS)",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
     }
   ]
 }

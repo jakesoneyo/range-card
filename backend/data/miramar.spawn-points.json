@@ -9,27 +9,83 @@
   "spawnPoints": [
     {
       "type": "VEHICLE_FIXED",
-      "x": 540,
-      "y": 701,
-      "label": "로스 레오네스 고정 차량 (placeholder, 실좌표 아님)",
-      "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
-      "sourceUrl": ""
+      "x": 553,
+      "y": 1270,
+      "label": "로스 레오네스 고정 차량",
+      "description": "미라마 최대 도시 로스 레오네스 외곽 도로에 고정 스폰되는 차량. 엘 포조로 이어지는 도로가 초반 검문·로테이션 지점으로 자주 활용된다.",
+      "sourceUrl": "https://namu.wiki/w/미라마",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1024,
+      "y": 1065,
+      "label": "엘 포조 고정 차량",
+      "description": "엘 포조 교도소 지역 도로변 고정 스폰 차량. 산 마르틴·바예 델 마르로 향하는 사거리와 가깝다.",
+      "sourceUrl": "https://namu.wiki/w/미라마",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 778,
+      "y": 922,
+      "label": "산 마르틴 고정 차량",
+      "description": "산 마르틴 마을 도로변 고정 스폰 차량. 바예 델 마르 방면 도로와 만나는 사거리 인근.",
+      "sourceUrl": "https://namu.wiki/w/미라마",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1851,
-      "y": 951,
-      "label": "동부 해안 고정 보트 (placeholder, 실좌표 아님)",
-      "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
-      "sourceUrl": ""
+      "x": 1638,
+      "y": 1495,
+      "label": "바예 델 마르 해안 고정 보트",
+      "description": "동남부 해안 도시 바예 델 마르 항구 인근 고정 스폰 보트.",
+      "sourceUrl": "https://namu.wiki/w/미라마",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1331,
+      "y": 1843,
+      "label": "푸에르토 파라이소 고정 보트",
+      "description": "남부 항구 마을 푸에르토 파라이소의 고정 스폰 보트.",
+      "sourceUrl": "https://namu.wiki/w/미라마",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1843,
+      "y": 1106,
+      "label": "캄포 밀리타르 해안 고정 보트",
+      "description": "동부 해안 군사 캠프 캄포 밀리타르 인근 고정 스폰 보트.",
+      "sourceUrl": "https://namu.wiki/w/미라마",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1099,
-      "y": 1300,
-      "label": "엘 포조 비밀의 방 (placeholder, 실좌표 아님)",
-      "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
-      "sourceUrl": ""
+      "x": 420,
+      "y": 942,
+      "label": "알칸타라 서쪽 비밀의 방",
+      "description": "알칸타라 서쪽 암석 지대에 위치한 비밀의 방. 41.2 업데이트로 미라마에 추가된 비밀의 방 시스템의 확인된 위치 중 하나.",
+      "sourceUrl": "https://ppuub.com/entry/%EB%B0%B0%ED%8B%80%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AF%B8%EB%9D%BC%EB%A7%88-%EB%B9%84%EB%B0%80%EC%9D%98-%EB%B0%A9-%EC%9C%84%EC%B9%98-%EC%B4%9D%EC%A0%95%EB%A6%AC-412-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B3%B5%EB%9E%B5",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 553,
+      "y": 1580,
+      "label": "추마세라 남쪽 비밀의 방",
+      "description": "추마세라 남쪽 해안 절벽 지대에 위치한 비밀의 방.",
+      "sourceUrl": "https://ppuub.com/entry/%EB%B0%B0%ED%8B%80%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AF%B8%EB%9D%BC%EB%A7%88-%EB%B9%84%EB%B0%80%EC%9D%98-%EB%B0%A9-%EC%9C%84%EC%B9%98-%EC%B4%9D%EC%A0%95%EB%A6%AC-412-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B3%B5%EB%9E%B5",
+      "lastVerifiedAt": "2026-08-14T00:00:00.000Z",
+      "isActive": true
     }
   ]
 }
