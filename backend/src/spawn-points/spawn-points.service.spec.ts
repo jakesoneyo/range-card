@@ -99,6 +99,40 @@ describe('SpawnPointsService', () => {
     });
   });
 
+  describe('create', () => {
+    it('존재하지 않는 mapId면 NotFoundException(FK 위반이 500으로 새지 않게)', async () => {
+      const { service, prisma } = buildService();
+      prisma.map.findUnique.mockResolvedValue(null);
+
+      await expect(
+        service.create({
+          mapId: 'no-such-map',
+          type: SpawnPointType.BUNKER,
+          x: 1,
+          y: 2,
+          label: '테스트',
+        }),
+      ).rejects.toThrow(NotFoundException);
+      expect(prisma.spawnPoint.create).not.toHaveBeenCalled();
+    });
+
+    it('mapId가 존재하면 spawnPoint.create를 호출한다', async () => {
+      const { service, prisma } = buildService();
+      prisma.map.findUnique.mockResolvedValue({ id: 'map-1' });
+      const dto = {
+        mapId: 'map-1',
+        type: SpawnPointType.BUNKER,
+        x: 1,
+        y: 2,
+        label: '테스트',
+      };
+
+      await service.create(dto);
+
+      expect(prisma.spawnPoint.create).toHaveBeenCalledWith({ data: dto });
+    });
+  });
+
   describe('update/remove', () => {
     it('존재하지 않는 id를 update하면 NotFoundException', async () => {
       const { service, prisma } = buildService();

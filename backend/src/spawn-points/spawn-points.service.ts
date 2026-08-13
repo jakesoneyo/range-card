@@ -43,7 +43,12 @@ export class SpawnPointsService {
     });
   }
 
-  create(dto: CreateSpawnPointDto): Promise<SpawnPoint> {
+  /** @throws NotFoundException 대상 mapId가 존재하지 않을 때(FK 위반이 500으로 새는 것을 방지) */
+  async create(dto: CreateSpawnPointDto): Promise<SpawnPoint> {
+    const map = await this.prisma.map.findUnique({ where: { id: dto.mapId } });
+    if (!map) {
+      throw new NotFoundException(`맵을 찾을 수 없습니다: ${dto.mapId}`);
+    }
     return this.prisma.spawnPoint.create({ data: dto });
   }
 
