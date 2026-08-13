@@ -33,20 +33,19 @@ DB엔 이미지 좌상단 원점 픽셀 좌표를 저장한다. `src/lib/geo.ts`
 `latLngToPixel`이 Leaflet 비의존 순수함수로 y축 반전을 처리하며, 라운드트립 테스트로
 검증돼 있다(`src/test/geo.test.ts`).
 
-## 맵 이미지 placeholder
+## 맵 이미지
 
-4개 맵의 실제 캡처 이미지는 아직 준비되지 않았다. `MapCanvas`는 `map.imageUrl`을
-브라우저에서 프리로드해보고 성공하면 자동으로 `ImageOverlay`로 전환하며, 실패하면
-"지도 이미지 준비중" placeholder를 보여준다 — 백엔드가 실제 이미지 URL을 서빙하기
-시작하면 프론트 코드 변경 없이 그대로 반영된다.
+4개 맵 전부 `public/maps/<slug>.webp`로 채워져 있다(2048×2048, `github.com/pubg/api-assets`
+공식 High_Res No_Text 원본을 웹용으로 압축). `MapCanvas`는 `map.imageUrl`을 브라우저에서
+프리로드해보고 성공하면 자동으로 `ImageOverlay`로 전환, 실패 시(예: 이미지가 아직 없는
+환경) "지도 이미지 준비중" placeholder로 우아하게 대체한다 — 코드 변경 없이 자산만
+바뀌어도 그대로 반영되는 구조는 유지.
 
-## 백엔드 API 계약에 대한 가정 (미검증)
+## 백엔드 API 계약
 
-이 프론트엔드는 백엔드와 병렬로 개발되어, 계획서(PLAN)에 문서화된 엔드포인트/응답
-형태를 신뢰하고 구현했다. 대부분(맵/스폰포인트/인증)은 계획서에 정확히 명시돼 있어
-그대로 따랐지만, `GET /player-stats/search` 응답 바디의 **필드 이름은 계획서에
-명시되지 않아 추정**했다 — `src/lib/schemas.ts`의 `PlayerStatsResponseSchema` 주석에
-가정임을 명시해뒀다. 백엔드가 완성되면 실제 응답과 대조해 스키마를 재검증해야 한다.
+`GET /player-stats/search` 응답 필드명(`src/lib/schemas.ts`의 `PlayerStatsResponseSchema`)은
+개발 초기엔 추정치였으나, 백엔드 완성 후 실제 PUBG API 키로 라이브 검증까지 마쳐
+그대로 확정됐다.
 
 ## 데모/관리자 로그인
 
