@@ -15,8 +15,12 @@ async function bootstrap() {
 
   // 인증은 Authorization 헤더(Bearer 토큰) 방식이라 쿠키 자격증명이 필요 없다.
   // CORS_ORIGIN 미설정 시 모든 origin을 허용하면 배포 환경에서 위험하므로 안전하게 거부한다.
+  // 콤마로 여러 origin(프로덕션 + Vercel preview 등)을 받을 수 있도록 배열로 분리한다.
+  const corsOrigin = process.env.CORS_ORIGIN;
   app.enableCors({
-    origin: process.env.CORS_ORIGIN ?? false,
+    origin: corsOrigin?.includes(',')
+      ? corsOrigin.split(',').map((s) => s.trim())
+      : (corsOrigin ?? false),
   });
 
   const config = new DocumentBuilder()
