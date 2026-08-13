@@ -12,6 +12,8 @@ export interface LayerToggles {
   vehicleFixed: boolean;
   boatFixed: boolean;
   secretBunker: boolean;
+  /** 100% 고정 스폰이 아닌 "확률 높은 차고 건물" — vehicleFixed와 성격이 달라 별도 토글. */
+  garageHouse: boolean;
 }
 
 interface MapUiState {
@@ -31,7 +33,12 @@ interface MapUiState {
 }
 
 export const useMapUiStore = create<MapUiState>((set) => ({
-  layers: { vehicleFixed: true, boatFixed: true, secretBunker: true },
+  layers: {
+    vehicleFixed: true,
+    boatFixed: true,
+    secretBunker: true,
+    garageHouse: true,
+  },
   mode: "view",
   mortarPointA: null,
   mortarPointB: null,

@@ -26,6 +26,9 @@ enum SpawnPointType {
   BOAT_FIXED
   SECRET_ROOM
   BUNKER
+  // 100% 고정 스폰은 아니고 "확률이 높은 차고 건물" — 커뮤니티에서 흔히 "차고 포인트"라
+  // 부르는 별도 카테고리. VEHICLE_FIXED와 성격이 달라 분리한다.
+  GARAGE_HOUSE
 }
 
 model SpawnPoint {

@@ -7,6 +7,7 @@ const TONE_CLASSES = {
   vehicle: "border-marker-vehicle/60 bg-marker-vehicle/15 text-marker-vehicle",
   boat: "border-marker-boat/60 bg-marker-boat/15 text-marker-boat",
   secret: "border-marker-secret/60 bg-marker-secret/15 text-marker-secret",
+  garage: "border-marker-garage/60 bg-marker-garage/15 text-marker-garage",
   sub: "border-border bg-panel-2 text-sub",
 } as const;
 
