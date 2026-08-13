@@ -48,36 +48,6 @@
       "isActive": true
     },
     {
-      "type": "SECRET_ROOM",
-      "x": 600,
-      "y": 600,
-      "label": "고덕 비밀의 방",
-      "description": "북서쪽 섬 대도시 고덕 인근의 비밀의 방. 파란 양철 지붕에 천막이 걸쳐진 창고형 건물이 표식이다.",
-      "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
-      "isActive": true
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 900,
-      "y": 260,
-      "label": "군부대 비밀의 방",
-      "description": "북서쪽 섬 군부대 인근의 비밀의 방.",
-      "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
-      "isActive": true
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 830,
-      "y": 1240,
-      "label": "호산 비밀의 방",
-      "description": "남동쪽 반도 최대 도시 호산 인근의 비밀의 방. 남쪽 대륙의 비밀의 방은 대도시 인근에 위치하는 경향이 있다.",
-      "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
-      "isActive": true
-    },
-    {
       "type": "GARAGE_HOUSE",
       "x": 235,
       "y": 579,
@@ -166,6 +136,156 @@
       "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=259688&site=battlegrounds",
       "isActive": true,
       "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 335,
+      "y": 247,
+      "label": "월송 북쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 623,
+      "y": 292,
+      "label": "월송 동쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1174,
+      "y": 374,
+      "label": "군부대 남쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 868,
+      "y": 430,
+      "label": "고덕 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1700,
+      "y": 450,
+      "label": "조선소 동쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 306,
+      "y": 608,
+      "label": "해무사 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 245,
+      "y": 785,
+      "label": "하포 북쪽 섬 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1725,
+      "y": 795,
+      "label": "공항 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1475,
+      "y": 901,
+      "label": "북산사 서쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1074,
+      "y": 1174,
+      "label": "호산 동쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1563,
+      "y": 1303,
+      "label": "강능 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 234,
+      "y": 1243,
+      "label": "하포 남쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 592,
+      "y": 1504,
+      "label": "스쿨 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1205,
+      "y": 1519,
+      "label": "오향 서쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1547,
+      "y": 1669,
+      "label": "오향 남쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 태이고 지도의 비밀의 방 마커를 고해상도 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:11:21.021Z"
     }
   ]
 }

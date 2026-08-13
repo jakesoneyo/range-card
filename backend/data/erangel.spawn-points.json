@@ -9,533 +9,963 @@
   "spawnPoints": [
     {
       "type": "VEHICLE_FIXED",
-      "x": 370,
-      "y": 1470,
-      "label": "프리모르스크 입구 고정 차량",
-      "description": "프리모르스크 마을 입구 도로변에 매 라운드 고정 스폰되는 차량. 파밍 후 이동 동선이 좋아 초반 로테이션에 자주 활용된다.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.864Z",
-      "isActive": true
+      "x": 240,
+      "y": 260,
+      "label": "자르키 고정 차량(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 290,
+      "y": 305,
+      "label": "자르키 고정 차량(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 880,
+      "y": 240,
+      "label": "세베르니 고정 차량(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 965,
+      "y": 275,
+      "label": "세베르니 고정 차량(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1633,
+      "y": 251,
+      "label": "카메시키 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1790,
+      "y": 320,
+      "label": "카메시키 동쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1362,
+      "y": 302,
+      "label": "스탈베르 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 400,
+      "y": 590,
+      "label": "게오르고폴 고정 차량(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
       "x": 440,
-      "y": 575,
-      "label": "조지폴 차고 고정 차량",
-      "description": "조지폴 항구 지역 차고 건물 안에 고정 스폰되는 차량. 항구 특성상 파밍 후 대륙 이동 수단으로 선호된다.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "y": 660,
+      "label": "게오르고폴 고정 차량(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 990,
-      "y": 790,
-      "label": "로조크 학교 뒷차고 고정 차량",
-      "description": "로조크 학교 건물 뒤편 마을 차고에 고정 스폰되는 차량. 맵 중앙에 위치해 초반 학교 교전 후 탈출 동선으로 자주 쓰인다.",
-      "sourceUrl": "https://life.dandich.com/entry/배그-최고의-비밀-에란겔-지하창고-완전정복-가이드-2/",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "x": 370,
+      "y": 520,
+      "label": "게오르고폴 고정 차량(3)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1730,
-      "y": 1045,
-      "label": "밀타 파워 인근 고정 차량",
-      "description": "밀타 발전소 주변 도로에 고정 스폰되는 차량. 맵 동쪽 자기장 로테이션에 유용하다.",
-      "sourceUrl": "https://life.dandich.com/entry/배그-최고의-비밀-에란겔-지하창고-완전정복-가이드-2/",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 310,
-      "y": 1490,
-      "label": "프리모르스크 해안 고정 보트",
-      "description": "프리모르스크 남서 해안에 자주 스폰되는 보트. 대륙 남서부 해안 이동에 활용된다.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 1740,
-      "y": 210,
-      "label": "카메시키 해안 고정 보트",
-      "description": "동부 해안 마을 카메시키 인근에 자주 스폰되는 보트.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 1770,
-      "y": 815,
-      "label": "리포브카 해안 고정 보트",
-      "description": "동남부 해안 마을 리포브카 인근에 자주 스폰되는 보트.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
-    },
-    {
-      "type": "SECRET_ROOM",
       "x": 900,
-      "y": 975,
-      "label": "포친키 성당 비밀의 방",
-      "description": "포친키 성당 건물 지하실. 책장 앞에서 상호작용해 진입한다.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "y": 600,
+      "label": "로조크 북쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "SECRET_ROOM",
-      "x": 460,
-      "y": 615,
-      "label": "조지폴 항구 창고 비밀의 방",
-      "description": "조지폴 항구 인근 창고 건물 지하에 위치한 비밀의 방.",
-      "sourceUrl": "https://life.dandich.com/entry/배그-최고의-비밀-에란겔-지하창고-완전정복-가이드-2/",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "type": "VEHICLE_FIXED",
+      "x": 927,
+      "y": 722,
+      "label": "로조크 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "SECRET_ROOM",
-      "x": 1215,
-      "y": 590,
-      "label": "야스나야 폴리아나 아파트 비밀의 방",
-      "description": "야스나야 폴리아나 중앙 아파트 단지 지하에 위치한 비밀의 방.",
-      "sourceUrl": "https://life.dandich.com/entry/배그-최고의-비밀-에란겔-지하창고-완전정복-가이드-2/",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "type": "VEHICLE_FIXED",
+      "x": 975,
+      "y": 700,
+      "label": "로조크 동쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "SECRET_ROOM",
-      "x": 1715,
-      "y": 1035,
-      "label": "밀타 파워 발전소 비밀의 방",
-      "description": "밀타 발전소 메인 건물 지하에 위치한 비밀의 방.",
-      "sourceUrl": "https://life.dandich.com/entry/배그-최고의-비밀-에란겔-지하창고-완전정복-가이드-2/",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "type": "VEHICLE_FIXED",
+      "x": 1224,
+      "y": 568,
+      "label": "야스나야폴리아나 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "BUNKER",
-      "x": 1050,
-      "y": 1580,
-      "label": "소스노브카 군사기지 지하벙커",
-      "description": "남부 소스노브카 섬 군사기지 내부의 비밀 지하벙커. pubg.com 공식 맵 페이지도 에란겔의 Secret Room 존재를 언급한다.",
-      "sourceUrl": "https://pubgsecretroom.com/pubg-erangel-secret-room.html",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "type": "VEHICLE_FIXED",
+      "x": 1280,
+      "y": 630,
+      "label": "야스나야폴리아나 동쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "BUNKER",
-      "x": 1510,
-      "y": 1470,
-      "label": "노보레프노예 인근 지하벙커",
-      "description": "북동부 해안 마을 노보레프노예 인근 지역의 지하벙커.",
-      "sourceUrl": "https://pubgsecretroom.com/pubg-erangel-secret-room.html",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "type": "VEHICLE_FIXED",
+      "x": 732,
+      "y": 809,
+      "label": "루인스 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "BUNKER",
-      "x": 1610,
-      "y": 320,
-      "label": "카메시키 지하벙커",
-      "description": "동부 해안 마을 카메시키에 비주얼 패치 이후 새로 생긴 지하벙커.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "lastVerifiedAt": "2026-08-13T18:17:23.865Z",
-      "isActive": true
+      "type": "VEHICLE_FIXED",
+      "x": 845,
+      "y": 768,
+      "label": "보트야드 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
-      "type": "GARAGE_HOUSE",
+      "type": "VEHICLE_FIXED",
+      "x": 1000,
+      "y": 830,
+      "label": "스쿨 동쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
       "x": 358,
       "y": 783,
-      "label": "병원 차고집",
-      "description": "게오르고폴 남쪽 병원 건물 동쪽 언덕에 있는 차고집. 100% 고정은 아니지만 확률이 높아 게오르고폴에서 차를 못 구한 유저들이 몰린다.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
+      "label": "병원 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1009,
-      "y": 804,
-      "label": "학교 차고집",
-      "description": "학교 마을 남쪽, 아파트 단지 인근의 차고집. 초반 교전이 잦은 학교 특성상 탈것 쟁탈전이 자주 벌어진다.",
-      "sourceUrl": "https://namu.wiki/w/에란겔",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1394,
-      "y": 70,
-      "label": "북부 해안 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 502,
+      "y": 958,
+      "label": "가트카 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 734,
-      "y": 268,
-      "label": "세베르니 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 896,
+      "y": 993,
+      "label": "포친키 고정 차량(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1690,
-      "y": 210,
-      "label": "카메시키 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 950,
+      "y": 1000,
+      "label": "포친키 고정 차량(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1410,
-      "y": 326,
-      "label": "스탈베르 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 700,
+      "y": 1030,
+      "label": "맵 중앙 남부 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 274,
-      "y": 306,
-      "label": "자르키 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1515,
+      "y": 753,
+      "label": "맨션 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 424,
-      "y": 526,
-      "label": "게오르고폴 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1700,
+      "y": 794,
+      "label": "리포브카 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1350,
-      "y": 558,
-      "label": "야스나야폴리아나 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1500,
+      "y": 942,
+      "label": "프리즌 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1321,
+      "y": 952,
+      "label": "쉘터 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 348,
+      "y": 1454,
+      "label": "프리모르스크 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 250,
+      "y": 1240,
+      "label": "서부 해안 고정 차량(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 260,
+      "y": 1520,
+      "label": "서부 해안 고정 차량(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 437,
+      "y": 1290,
+      "label": "퀘리 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 696,
+      "y": 1382,
+      "label": "페리피어 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
       "x": 940,
-      "y": 700,
-      "label": "로조크 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "y": 1470,
+      "label": "소스노브카 해협 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1720,
-      "y": 762,
-      "label": "리포브카 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 406,
-      "y": 814,
-      "label": "병원 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1020,
-      "y": 824,
-      "label": "스쿨 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 922,
-      "y": 966,
-      "label": "포친키 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1606,
-      "y": 1014,
-      "label": "프리즌 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1458,
-      "y": 1140,
-      "label": "밀타 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1746,
-      "y": 1140,
-      "label": "밀타파워 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 372,
-      "y": 1476,
-      "label": "프리모르스크 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1510,
-      "y": 1520,
-      "label": "노보레프노예 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1118,
-      "y": 1596,
+      "x": 1065,
+      "y": 1556,
       "label": "소스노브카 군사기지 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 680,
-      "y": 1032,
-      "label": "맵 중앙 남부 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1090,
+      "y": 1690,
+      "label": "소스노브카 남부 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1292,
-      "y": 1082,
-      "label": "팜 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1505,
+      "y": 1475,
+      "label": "노보레프노예 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1440,
+      "y": 1420,
+      "label": "노보레프노예 서쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1265,
+      "y": 1101,
+      "label": "팜 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1180,
+      "y": 1090,
+      "label": "팜 서쪽 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1418,
+      "y": 1126,
+      "label": "밀타 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1761,
+      "y": 1060,
+      "label": "밀타파워 고정 차량",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 차량 마커를 4분할 고해상도로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:02:33.410Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 335,
+      "y": 402,
+      "label": "자르키 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 636,
+      "y": 492,
+      "label": "게오르고폴 남쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1004,
+      "y": 441,
+      "label": "세베르니 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1251,
+      "y": 124,
+      "label": "북부 해안 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1607,
+      "y": 460,
+      "label": "카메시키 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 359,
+      "y": 819,
+      "label": "병원 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 729,
+      "y": 870,
+      "label": "루인스 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1330,
+      "y": 800,
+      "label": "맨션 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1130,
+      "y": 1047,
+      "label": "포친키 남쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 668,
+      "y": 1218,
+      "label": "맵 중앙 남부 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 306,
+      "y": 1303,
+      "label": "퀘리 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1655,
+      "y": 1174,
+      "label": "밀타파워 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1071,
+      "y": 1385,
+      "label": "소스노브카 해협 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 804,
+      "y": 1579,
+      "label": "소스노브카 군사기지 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1378,
+      "y": 1584,
+      "label": "노보레프노예 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 비밀의 방 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:04:05.503Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 302,
+      "y": 232,
+      "label": "자르키 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 884,
+      "y": 221,
+      "label": "세베르니 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1318,
+      "y": 52,
+      "label": "북부 해안 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1620,
+      "y": 335,
+      "label": "카메시키 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 400,
+      "y": 517,
+      "label": "게오르고폴 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1198,
+      "y": 520,
+      "label": "야스나야폴리아나 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 824,
+      "y": 698,
+      "label": "로조크 강 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 218,
+      "y": 843,
+      "label": "병원 서쪽 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1748,
+      "y": 781,
+      "label": "리포브카 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 134,
+      "y": 1136,
+      "label": "서부 해안 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 539,
+      "y": 1370,
+      "label": "남부 해안 고정 보트(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 670,
+      "y": 1339,
+      "label": "남부 해안 고정 보트(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 742,
+      "y": 1339,
+      "label": "남부 해안 고정 보트(3)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 837,
+      "y": 1316,
+      "label": "페리피어 고정 보트(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 935,
+      "y": 1277,
+      "label": "페리피어 고정 보트(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 445,
+      "y": 1461,
+      "label": "프리모르스크 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1099,
+      "y": 1182,
+      "label": "소스노브카 해협 고정 보트(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1205,
+      "y": 1182,
+      "label": "소스노브카 해협 고정 보트(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1185,
+      "y": 1272,
+      "label": "소스노브카 해협 고정 보트(3)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1380,
+      "y": 1190,
+      "label": "밀타 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1488,
+      "y": 1195,
+      "label": "밀타 동쪽 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1748,
+      "y": 1123,
+      "label": "밀타파워 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1504,
+      "y": 1385,
+      "label": "노보레프노예 고정 보트",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 고정 보트 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:05:06.968Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1426,
+      "x": 1373,
       "y": 74,
       "label": "북부 해안 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1358,
-      "y": 360,
+      "x": 1318,
+      "y": 350,
       "label": "스탈베르 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 572,
-      "y": 584,
-      "label": "게오르고폴 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 557,
+      "y": 563,
+      "label": "게오르고폴 차고집(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 614,
-      "y": 656,
-      "label": "게오르고폴 남쪽 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 595,
+      "y": 635,
+      "label": "게오르고폴 차고집(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 898,
-      "y": 696,
+      "x": 868,
+      "y": 670,
+      "label": "로조크 서쪽 차고집",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 410,
+      "y": 783,
+      "label": "병원 차고집",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/erangel",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 991,
+      "y": 692,
       "label": "로조크 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1022,
-      "y": 716,
+      "x": 1074,
+      "y": 682,
       "label": "로조크 동쪽 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1108,
-      "y": 716,
-      "label": "스쿨 인근 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1130,
+      "y": 724,
+      "label": "스쿨 차고집",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1158,
-      "y": 750,
-      "label": "스쿨 남쪽 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1308,
-      "y": 580,
+      "x": 1274,
+      "y": 549,
       "label": "야스나야폴리아나 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1584,
-      "y": 646,
-      "label": "맨션 인근 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1540,
+      "y": 623,
+      "label": "맨션 차고집",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1770,
-      "y": 784,
+      "x": 1720,
+      "y": 760,
       "label": "리포브카 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 420,
-      "y": 808,
-      "label": "병원 차고집(2번)",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/erangel",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 886,
-      "y": 976,
+      "x": 855,
+      "y": 950,
       "label": "포친키 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1512,
-      "y": 1134,
+      "x": 1468,
+      "y": 1141,
       "label": "밀타 차고집",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1442,
-      "y": 1450,
-      "label": "노보레프노예 차고집(1번)",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1399,
+      "y": 1399,
+      "label": "노보레프노예 차고집(1)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1502,
-      "y": 1474,
-      "label": "노보레프노예 차고집(2번)",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1445,
+      "y": 1414,
+      "label": "노보레프노예 차고집(2)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1516,
-      "y": 1500,
-      "label": "노보레프노예 차고집(3번)",
-      "description": "BGMS(bgms.kr) 에란겔 지도의 해당 카테고리 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1471,
+      "y": 1435,
+      "label": "노보레프노예 차고집(3)",
+      "description": "BGMS(bgms.kr) 에란겔 지도의 차고지 마커를 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:50:56.585Z"
+      "lastVerifiedAt": "2026-08-13T19:06:06.814Z"
     }
   ]
 }

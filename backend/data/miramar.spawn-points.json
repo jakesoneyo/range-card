@@ -38,26 +38,6 @@
       "isActive": true
     },
     {
-      "type": "SECRET_ROOM",
-      "x": 280,
-      "y": 520,
-      "label": "알칸타라 서쪽 비밀의 방",
-      "description": "알칸타라 서쪽 암석 지대에 위치한 비밀의 방. 41.2 업데이트로 미라마에 추가된 비밀의 방 시스템의 확인된 위치 중 하나.",
-      "sourceUrl": "https://ppuub.com/entry/%EB%B0%B0%ED%8B%80%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AF%B8%EB%9D%BC%EB%A7%88-%EB%B9%84%EB%B0%80%EC%9D%98-%EB%B0%A9-%EC%9C%84%EC%B9%98-%EC%B4%9D%EC%A0%95%EB%A6%AC-412-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B3%B5%EB%9E%B5",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 650,
-      "y": 1350,
-      "label": "추마세라 남쪽 비밀의 방",
-      "description": "추마세라 남쪽 해안 절벽 지대에 위치한 비밀의 방.",
-      "sourceUrl": "https://ppuub.com/entry/%EB%B0%B0%ED%8B%80%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AF%B8%EB%9D%BC%EB%A7%88-%EB%B9%84%EB%B0%80%EC%9D%98-%EB%B0%A9-%EC%9C%84%EC%B9%98-%EC%B4%9D%EC%A0%95%EB%A6%AC-412-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B3%B5%EB%9E%B5",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
       "type": "GARAGE_HOUSE",
       "x": 921,
       "y": 716,
@@ -186,6 +166,136 @@
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
       "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 438,
+      "y": 350,
+      "label": "라코브레리아 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 683,
+      "y": 556,
+      "label": "엘포조 북쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1123,
+      "y": 304,
+      "label": "워터트리트먼트 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1514,
+      "y": 428,
+      "label": "티에라브론카 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 340,
+      "y": 773,
+      "label": "엘포조 남쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1246,
+      "y": 752,
+      "label": "아시엔다델파트론 동쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1504,
+      "y": 1015,
+      "label": "임팔라 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 309,
+      "y": 1262,
+      "label": "바예델마르 서쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 664,
+      "y": 1185,
+      "label": "추마세라 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1066,
+      "y": 1231,
+      "label": "로스레오네스 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1272,
+      "y": 1483,
+      "label": "푸에르토파라이소 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 811,
+      "y": 1566,
+      "label": "리조트 서쪽 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 345,
+      "y": 1823,
+      "label": "프리즌 비밀의 방",
+      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
     }
   ]
 }
