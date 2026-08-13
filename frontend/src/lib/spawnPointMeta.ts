@@ -29,6 +29,23 @@ export const SPAWN_POINT_TYPE_DOT_CLASS: Record<SpawnPointType, string> = {
   BUNKER: "bg-marker-secret",
 };
 
+/**
+ * 지도 마커 다이아몬드 안에 그릴 아이콘의 SVG 내부 마크업(lucide-react 설치 버전의 path
+ * 데이터를 그대로 옮겨온 것 — divIcon은 React 컴포넌트를 못 그려서 문자열이 필요하다).
+ * 비밀의 방/지하벙커는 둘 다 "열쇠가 있어야 들어갈 수 있다"는 같은 게임 설정이라 아이콘을
+ * 공유한다(KeyRound) — 색상/사이드바 그룹도 이미 통합돼 있어 일관됨.
+ */
+export const SPAWN_POINT_TYPE_ICON_SVG: Record<SpawnPointType, string> = {
+  VEHICLE_FIXED:
+    '<path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/><path d="M7 14h.01"/><path d="M17 14h.01"/><rect width="18" height="8" x="3" y="10" rx="2"/><path d="M5 18v2"/><path d="M19 18v2"/>',
+  BOAT_FIXED:
+    '<path d="M12 6v16"/><path d="m19 13 2-1a9 9 0 0 1-18 0l2 1"/><path d="M9 11h6"/><circle cx="12" cy="4" r="2"/>',
+  SECRET_ROOM:
+    '<path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>',
+  BUNKER:
+    '<path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>',
+};
+
 /** LayerTogglePanel 체크박스 키 → 실제 조회할 SpawnPointType 목록. 비밀의 방/지하벙커는 하나로 묶임. */
 export const LAYER_TYPE_GROUPS: Record<keyof LayerToggles, SpawnPointType[]> = {
   vehicleFixed: ["VEHICLE_FIXED"],
