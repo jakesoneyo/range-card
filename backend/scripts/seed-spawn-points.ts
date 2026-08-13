@@ -27,6 +27,8 @@ interface SpawnPointSeed {
   label: string;
   description?: string;
   sourceUrl?: string;
+  isActive?: boolean;
+  lastVerifiedAt?: string;
 }
 
 interface MapSeedFile {
