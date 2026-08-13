@@ -2,7 +2,7 @@
  * react-leaflet + L.CRS.Simple 기반 맵 뷰어. 맵 이미지가 아직 없는 동안은 단색 placeholder를
  * 보여주고, map.imageUrl이 실제로 로드되면 자동으로 ImageOverlay로 전환된다(코드 변경 불필요).
  */
-import { useEffect, useState } from "react";
+import { useMemo } from "react";
 import {
   ImageOverlay,
   MapContainer,
@@ -12,32 +12,8 @@ import {
 import L, { CRS } from "leaflet";
 import { latLngToPixel, type PixelPoint } from "../../lib/geo";
 import type { MapEntity, SpawnPoint } from "../../lib/schemas";
+import { useImageLoadState } from "../../lib/useImageLoadState";
 import { SpawnPointMarker } from "./SpawnPointMarker";
-
-type ImageLoadState = "loading" | "loaded" | "error";
-
-/** map.imageUrl이 실제로 존재하는지 브라우저에서 프리로드로 확인 — 아직 준비 안 된 맵은 자동 placeholder. */
-function useImageLoadState(url: string | undefined): ImageLoadState {
-  const [state, setState] = useState<ImageLoadState>("loading");
-
-  useEffect(() => {
-    if (!url) {
-      setState("error");
-      return;
-    }
-    setState("loading");
-    const img = new Image();
-    img.onload = () => setState("loaded");
-    img.onerror = () => setState("error");
-    img.src = url;
-    return () => {
-      img.onload = null;
-      img.onerror = null;
-    };
-  }, [url]);
-
-  return state;
-}
 
 function ClickHandler({
   imageSizePx,
@@ -67,6 +43,15 @@ export function MapCanvas({
     [0, 0],
     [map.imageSizePx, map.imageSizePx],
   ];
+  // Leaflet Rectangle의 pathOptions는 CSS 클래스를 못 받아 색상을 직접 넘겨야 한다.
+  // 디자인 토큰(--color-panel-2)을 하드코딩 대신 런타임에 실제 CSS 변수값으로 읽어서 쓴다.
+  const placeholderFillColor = useMemo(() => {
+    if (typeof document === "undefined") return "#211d19";
+    const value = getComputedStyle(document.documentElement)
+      .getPropertyValue("--color-panel-2")
+      .trim();
+    return value || "#211d19";
+  }, []);
 
   return (
     <div className="relative h-full w-full overflow-hidden border border-border">
@@ -93,7 +78,7 @@ export function MapCanvas({
             bounds={bounds}
             pathOptions={{
               color: "transparent",
-              fillColor: "#211d19",
+              fillColor: placeholderFillColor,
               fillOpacity: 1,
             }}
           />
