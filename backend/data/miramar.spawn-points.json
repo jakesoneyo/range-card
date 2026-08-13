@@ -69,233 +69,233 @@
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1954,
-      "y": 822,
-      "label": "엘아사하르 북동 해안 고정 보트",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 2002,
+      "y": 831,
+      "label": "엘아사하르 인근 고정 보트",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1736,
-      "y": 976,
-      "label": "트럭스탑 인근 고정 보트",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1779,
+      "y": 990,
+      "label": "임팔라 인근 고정 보트",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1830,
-      "y": 1098,
-      "label": "동부 군도 고정 보트(1번)",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1877,
+      "y": 1120,
+      "label": "임팔라 인근 고정 보트(2)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1836,
-      "y": 1254,
-      "label": "동부 군도 고정 보트(2번)",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1881,
+      "y": 1276,
+      "label": "임팔라 인근 고정 보트(3)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
     },
     {
       "type": "BOAT_FIXED",
-      "x": 1596,
-      "y": 1556,
-      "label": "푸에르토파라이소 고정 보트",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 376,
-      "y": 1538,
-      "label": "바예델마르 고정 보트",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 618,
-      "y": 1740,
-      "label": "남부 해안 고정 보트(1번)",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 774,
-      "y": 1682,
-      "label": "남부 해안 고정 보트(2번)",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 1018,
-      "y": 1734,
-      "label": "리조트 인근 고정 보트",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 264,
-      "y": 1874,
-      "label": "프리즌 고정 보트",
-      "description": "BGMS(bgms.kr) 미라마 지도의 고정 보트 마커를 직접 눈으로 보고 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:51:52.878Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 438,
-      "y": 350,
-      "label": "라코브레리아 인근 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 683,
-      "y": 556,
-      "label": "엘포조 북쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 1123,
-      "y": 304,
-      "label": "워터트리트먼트 인근 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 1514,
-      "y": 428,
-      "label": "티에라브론카 인근 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 340,
-      "y": 773,
-      "label": "엘포조 남쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 1246,
-      "y": 752,
-      "label": "아시엔다델파트론 동쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 1504,
-      "y": 1015,
-      "label": "임팔라 인근 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 309,
-      "y": 1262,
-      "label": "바예델마르 서쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 664,
-      "y": 1185,
-      "label": "추마세라 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 1066,
-      "y": 1231,
-      "label": "로스레오네스 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 1272,
-      "y": 1483,
-      "label": "푸에르토파라이소 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/miramar",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
-    },
-    {
-      "type": "SECRET_ROOM",
-      "x": 811,
+      "x": 385,
       "y": 1566,
-      "label": "리조트 서쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "label": "바예델마르 인근 고정 보트",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1636,
+      "y": 1588,
+      "label": "푸에르토파라이소 인근 고정 보트",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 794,
+      "y": 1718,
+      "label": "파르토나 인근 고정 보트",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1044,
+      "y": 1777,
+      "label": "파르토나 인근 고정 보트(2)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 634,
+      "y": 1780,
+      "label": "파르토나 인근 고정 보트(3)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 272,
+      "y": 1915,
+      "label": "프리즌 인근 고정 보트",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 345,
-      "y": 1823,
-      "label": "프리즌 비밀의 방",
-      "description": "BGMS(bgms.kr) 미라마 지도의 비밀의 방 마커를 전체 뷰로 검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 366,
+      "y": 1827,
+      "label": "프리즌 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:07:31.738Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 332,
+      "y": 1322,
+      "label": "바예델마르 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 361,
+      "y": 813,
+      "label": "엘포조 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 465,
+      "y": 389,
+      "label": "크레이터필드 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 720,
+      "y": 588,
+      "label": "크레이터필드 인근 비밀의 방(2)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 696,
+      "y": 1243,
+      "label": "추마세라 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 857,
+      "y": 1673,
+      "label": "파르토나 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1126,
+      "y": 1295,
+      "label": "로스레오네스 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1342,
+      "y": 1577,
+      "label": "푸에르토파라이소 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1595,
+      "y": 1065,
+      "label": "임팔라 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1318,
+      "y": 784,
+      "label": "미나스제네랄레스 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1610,
+      "y": 452,
+      "label": "티에라브론카 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
+    },
+    {
+      "type": "SECRET_ROOM",
+      "x": 1186,
+      "y": 328,
+      "label": "크루즈델바예 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/miramar",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.724Z"
     }
   ]
 }

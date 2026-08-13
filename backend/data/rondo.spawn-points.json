@@ -29,323 +29,323 @@
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 731,
-      "y": 41,
-      "label": "난추안 북쪽 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 762,
+      "y": 1059,
+      "label": "유린 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1542,
-      "y": 422,
+      "x": 1268,
+      "y": 1650,
+      "label": "훙산 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 771,
+      "y": 32,
+      "label": "난추안 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1774,
+      "y": 324,
+      "label": "헤마이타운 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1618,
+      "y": 447,
       "label": "무호판 인근 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1680,
-      "y": 299,
-      "label": "헤마이타운 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 379,
+      "y": 811,
+      "label": "자오틴 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 355,
-      "y": 803,
-      "label": "자오틴 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1671,
+      "y": 819,
+      "label": "메이란 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1125,
-      "y": 803,
-      "label": "테스트트랙 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1187,
+      "y": 842,
+      "label": "뱀부 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1162,
-      "y": 845,
-      "label": "네옥스팩토리 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1225,
+      "y": 886,
+      "label": "테스트트랙 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 1586,
-      "y": 783,
-      "label": "메이란 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1681,
+      "y": 1205,
+      "label": "딘칭 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "VEHICLE_FIXED",
-      "x": 721,
-      "y": 1004,
-      "label": "유린 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 699,
+      "y": 1326,
+      "label": "란포 인근 고정 차량",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1589,
-      "y": 1141,
-      "label": "윤구 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 664,
-      "y": 1262,
-      "label": "펑툰 남쪽 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1200,
-      "y": 1306,
-      "label": "딘칭 남쪽 고정 차량",
-      "description": "BGMS(bgms.kr) 론도 지도의 고정 차량 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:09.441Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 939,
-      "y": 196,
+      "x": 482,
+      "y": 824,
+      "label": "자오틴 인근 차고집",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1639,
+      "y": 834,
+      "label": "메이란 인근 차고집",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1364,
+      "y": 191,
       "label": "라이안 인근 차고집",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1296,
-      "y": 180,
-      "label": "쿤시아 인근 차고집",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 991,
+      "y": 203,
+      "label": "난추안 인근 차고집",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1464,
-      "y": 309,
-      "label": "무호판 차고집",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1544,
+      "y": 330,
+      "label": "무호판 인근 차고집",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 453,
-      "y": 803,
-      "label": "자오틴 차고집",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1801,
+      "y": 1401,
+      "label": "투링 인근 차고집",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1563,
-      "y": 798,
-      "label": "메이란 차고집",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1702,
-      "y": 1311,
-      "label": "자데나시티 차고집",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 739,
-      "y": 180,
-      "label": "난추안 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 323,
+      "y": 1609,
+      "label": "란포 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 360,
-      "y": 292,
-      "label": "베이리 인근 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 376,
+      "y": 1185,
+      "label": "펑툰 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1188,
-      "y": 364,
-      "label": "무호판 서쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 367,
+      "y": 786,
+      "label": "자오틴 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1413,
-      "y": 183,
-      "label": "쿤시아 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 379,
+      "y": 300,
+      "label": "민후 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 925,
-      "y": 610,
-      "label": "스타디움 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 776,
+      "y": 1274,
+      "label": "유린 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1733,
-      "y": 626,
-      "label": "헤마이타운 인근 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1201,
+      "y": 1084,
+      "label": "유린 인근 비밀의 방(2)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 353,
-      "y": 752,
-      "label": "자오틴 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 871,
+      "y": 1753,
+      "label": "린지앙 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1141,
-      "y": 1027,
-      "label": "테스트트랙 남쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 974,
+      "y": 634,
+      "label": "스타디움 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1651,
-      "y": 1018,
-      "label": "윤구 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 779,
+      "y": 188,
+      "label": "난추안 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 360,
-      "y": 1131,
-      "label": "펑툰 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1488,
+      "y": 184,
+      "label": "라이안 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 733,
-      "y": 1218,
-      "label": "유린 남쪽 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1252,
+      "y": 383,
+      "label": "라이안 인근 비밀의 방(2)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1360,
-      "y": 1427,
-      "label": "투링 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1819,
+      "y": 657,
+      "label": "로화싱 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 304,
-      "y": 1535,
-      "label": "롱호 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1722,
+      "y": 1066,
+      "label": "윤구 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 824,
-      "y": 1671,
-      "label": "린지앙 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1436,
+      "y": 1514,
+      "label": "훙산 인근 비밀의 방",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     },
     {
       "type": "SECRET_ROOM",
-      "x": 1205,
-      "y": 1718,
-      "label": "틴롱가든 비밀의 방",
-      "description": "BGMS(bgms.kr) 론도 지도의 마커를 고해상도 전체 뷰로 재검증해 위치만 옮겨 찍음(이미지 자체는 저장/사용하지 않음).",
+      "x": 1272,
+      "y": 1850,
+      "label": "훙산 인근 비밀의 방(2)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:09:53.193Z"
+      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
     }
   ]
 }
