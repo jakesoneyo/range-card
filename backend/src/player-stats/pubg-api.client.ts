@@ -46,6 +46,7 @@ export class PubgApiClient {
   ): Promise<{ id: string; name: string }> {
     const res = await this.request<PubgPlayersResponse>(
       `/shards/${shard}/players?filter[playerNames]=${encodeURIComponent(name)}`,
+      name,
     );
     const player = res.data[0];
     if (!player) {
@@ -75,7 +76,11 @@ export class PubgApiClient {
     );
   }
 
-  private async request<T>(path: string): Promise<T> {
+  /**
+   * @param notFoundName 404 응답 시 사용자에게 보여줄 이름. 미지정 시 내부 경로 대신
+   *   일반 메시지를 사용해 API 경로가 클라이언트로 노출되지 않게 한다.
+   */
+  private async request<T>(path: string, notFoundName?: string): Promise<T> {
     const apiKey = this.config.get<string>('PUBG_API_KEY');
     if (!apiKey) {
       throw new PubgApiError('PUBG_API_KEY 환경변수가 설정되지 않았습니다.');
@@ -92,7 +97,7 @@ export class PubgApiClient {
       throw new PubgRateLimitedError();
     }
     if (res.status === 404) {
-      throw new PubgPlayerNotFoundError(path);
+      throw new PubgPlayerNotFoundError(notFoundName ?? '요청한 리소스');
     }
     if (!res.ok) {
       throw new PubgApiError(`PUBG API 요청 실패: ${res.status}`);
