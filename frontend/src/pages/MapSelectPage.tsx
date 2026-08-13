@@ -6,6 +6,29 @@ import { Link } from "react-router";
 import { Map as MapIcon } from "lucide-react";
 import { useMaps } from "../api/maps";
 import { Panel } from "../components/ui/Panel";
+import { useImageLoadState } from "../lib/useImageLoadState";
+import type { MapEntity } from "../lib/schemas";
+
+/** 카드 썸네일 — map.imageUrl 로드 성공 시 실제 지도 이미지, 실패/로딩 중엔 아이콘 placeholder. */
+function MapThumbnail({ map }: { map: MapEntity }) {
+  const imageState = useImageLoadState(map.imageUrl);
+
+  if (imageState === "loaded") {
+    return (
+      <img
+        src={map.imageUrl}
+        alt={map.name}
+        className="aspect-square w-full object-cover"
+      />
+    );
+  }
+
+  return (
+    <div className="flex aspect-square items-center justify-center bg-panel-2 text-sub">
+      <MapIcon size={40} strokeWidth={1.25} />
+    </div>
+  );
+}
 
 export function MapSelectPage() {
   const { data: maps, isLoading, isError } = useMaps();
@@ -34,9 +57,7 @@ export function MapSelectPage() {
         {maps?.map((map) => (
           <Link key={map.id} to={`/maps/${map.slug}`}>
             <Panel className="group h-full transition-colors hover:border-accent">
-              <div className="flex aspect-square items-center justify-center bg-panel-2 text-sub">
-                <MapIcon size={40} strokeWidth={1.25} />
-              </div>
+              <MapThumbnail map={map} />
               <div className="p-4">
                 <h2 className="font-wordmark text-lg text-ink group-hover:text-accent">
                   {map.name}
