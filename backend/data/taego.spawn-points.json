@@ -4,37 +4,37 @@
     "name": "Taego",
     "sizeM": 8000,
     "imageUrl": "/maps/taego.webp",
-    "imageSizePx": 1008
+    "imageSizePx": 2048
   },
   "spawnPoints": [
     {
       "type": "VEHICLE_FIXED",
-      "x": 236,
-      "y": 443,
+      "x": 479,
+      "y": 900,
       "label": "청아마을 인근 고정 차량 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
     },
     {
       "type": "BOAT_FIXED",
-      "x": 861,
-      "y": 541,
+      "x": 1749,
+      "y": 1099,
       "label": "동부 해안 고정 보트 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
     },
     {
       "type": "SECRET_ROOM",
-      "x": 443,
-      "y": 295,
+      "x": 900,
+      "y": 599,
       "label": "감성마을 비밀의 방 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
     },
     {
       "type": "BUNKER",
-      "x": 640,
-      "y": 837,
+      "x": 1300,
+      "y": 1701,
       "label": "남부 지하벙커 (placeholder, 실좌표 아님)",
       "description": "시드 스크립트/API 흐름 검증용 임시 좌표. 실제 큐레이션 전 반드시 교체할 것.",
       "sourceUrl": ""
