@@ -14,7 +14,8 @@ PUBG(배틀그라운드) **택티컬 맵 인텔 + 전적검색** 툴. "Range Car
 - **전적검색**은 공식 `api.pubg.com` 연동 — 닉네임으로 시즌 통계를 조회하고, 로그인 없이
   브라우저에만 저장되는 즐겨찾기로 재검색을 빠르게 한다.
 
-자세한 설계 배경은 [`ARCHITECTURE.md`](./ARCHITECTURE.md) 참고.
+자세한 설계 배경은 [`ARCHITECTURE.md`](./ARCHITECTURE.md), 데이터 출처별 신뢰도/법적 판단은
+[`DATA-SOURCES.md`](./DATA-SOURCES.md) 참고.
 
 ## 데모 계정
 
