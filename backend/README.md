@@ -56,9 +56,9 @@ npm run test:e2e  # Testcontainers로 Postgres 띄워 실제 DB against e2e (Doc
 
 `data/<slug>.spawn-points.json`이 좌표 데이터의 단일 소스다. `scripts/seed-spawn-points.ts`가
 이 JSON을 읽어 upsert한다(`(mapId, type, label)` 자연키 기준, `--reset`이면 대상 맵을 통째로
-비우고 재생성). 지금 커밋된 JSON은 API/시드 흐름 검증용 **placeholder**이며(label에
-"(placeholder, 실좌표 아님)" 명시), 실제 큐레이션 데이터로 교체하는 게 남은 작업이다.
-이후 유지보수는 관리자로 로그인해 지도 클릭으로 좌표를 직접 추가/수정하는 방법도 있다.
+비우고 재생성). 지금 커밋된 JSON은 나무위키·커뮤니티 자료를 교차검증해 큐레이션한 실좌표다
+(전수조사 아님, `sourceUrl`로 출처 추적 가능). 이후 유지보수는 관리자로 로그인해 지도 클릭으로
+좌표를 직접 추가/수정하거나, 이 JSON을 갈아끼우고 `--reset`으로 재시드하면 된다.
 
 ## 왜 `PubgApiError`도 503인가
 
