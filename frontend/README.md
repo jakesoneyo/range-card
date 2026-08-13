@@ -36,7 +36,7 @@ DB엔 이미지 좌상단 원점 픽셀 좌표를 저장한다. `src/lib/geo.ts`
 ## 맵 이미지
 
 4개 맵 전부 `public/maps/<slug>.webp`로 채워져 있다(2048×2048, `github.com/pubg/api-assets`
-공식 High_Res No_Text 원본을 웹용으로 압축). `MapCanvas`는 `map.imageUrl`을 브라우저에서
+공식 High_Res 원본(지명 라벨 포함)을 웹용으로 압축). `MapCanvas`는 `map.imageUrl`을 브라우저에서
 프리로드해보고 성공하면 자동으로 `ImageOverlay`로 전환, 실패 시(예: 이미지가 아직 없는
 환경) "지도 이미지 준비중" placeholder로 우아하게 대체한다 — 코드 변경 없이 자산만
 바뀌어도 그대로 반영되는 구조는 유지.

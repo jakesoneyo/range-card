@@ -93,9 +93,11 @@ localStorage). 유일한 인증 대상은 "좌표 데이터를 유지보수하�
 
 `frontend/public/maps/<slug>.webp` (2048×2048)는 `github.com/pubg/api-assets`
 (KRAFTON 공식 GitHub, "Official Resources for PUBG API Developers")의
-`{맵}_Main_No_Text_High_Res.png`(8192×8192 원본)를 `cwebp -q 85 -resize 2048 2048`로
-압축한 것이다. 지명 라벨이 없는 버전이라 자체 마커/UI 라벨과 겹치지 않는다. 좌표 데이터는
-이 공식 이미지와 무관하게 별도로(커뮤니티 자료 교차검증 + 인게임 그리드 환산) 큐레이션한다.
+`{맵}_Main_High_Res.png`(8192×8192 원본, 지명 라벨 포함 버전)를 `cwebp -q 85 -resize 2048 2048`로
+압축한 것이다. 같은 저장소에 라벨 없는 `_No_Text` 버전도 있으나, 지명이 있는 편이 실사용
+가독성(어느 마을 근처인지 한눈에 파악)에 더 유리하다고 판단해 이쪽을 채택했다 — 부수적으로
+공식 지명과 큐레이션한 좌표 라벨을 육안 대조 검증하는 데도 도움이 됐다. 좌표 데이터는 이
+공식 이미지와 무관하게 별도로(커뮤니티 자료 교차검증) 큐레이션한다.
 
 ## 알려진 한계
 
