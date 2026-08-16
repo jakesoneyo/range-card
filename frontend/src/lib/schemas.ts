@@ -14,6 +14,8 @@ export const SpawnPointTypeSchema = z.enum([
   "BUNKER",
   // 100% 고정 스폰은 아니고 "확률이 높은 차고 건물" — VEHICLE_FIXED와 성격이 달라 분리.
   "GARAGE_HOUSE",
+  "GLIDER",
+  "GAS_STATION",
 ]);
 export type SpawnPointType = z.infer<typeof SpawnPointTypeSchema>;
 

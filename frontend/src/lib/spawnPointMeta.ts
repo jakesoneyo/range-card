@@ -11,17 +11,21 @@ export const SPAWN_POINT_TYPE_LABEL: Record<SpawnPointType, string> = {
   SECRET_ROOM: "비밀의 방",
   BUNKER: "지하 벙커",
   GARAGE_HOUSE: "차고집(랜덤젠)",
+  GLIDER: "글라이더",
+  GAS_STATION: "주유소",
 };
 
 export const SPAWN_POINT_TYPE_BADGE_TONE: Record<
   SpawnPointType,
-  "vehicle" | "boat" | "secret" | "garage"
+  "vehicle" | "boat" | "secret" | "garage" | "glider" | "gasStation"
 > = {
   VEHICLE_FIXED: "vehicle",
   BOAT_FIXED: "boat",
   SECRET_ROOM: "secret",
   BUNKER: "secret",
   GARAGE_HOUSE: "garage",
+  GLIDER: "glider",
+  GAS_STATION: "gasStation",
 };
 
 export const SPAWN_POINT_TYPE_DOT_CLASS: Record<SpawnPointType, string> = {
@@ -30,6 +34,8 @@ export const SPAWN_POINT_TYPE_DOT_CLASS: Record<SpawnPointType, string> = {
   SECRET_ROOM: "bg-marker-secret",
   BUNKER: "bg-marker-secret",
   GARAGE_HOUSE: "bg-marker-garage",
+  GLIDER: "bg-marker-glider",
+  GAS_STATION: "bg-marker-gas-station",
 };
 
 /** GARAGE_HOUSE만 점선 테두리 — "100% 고정 아님, 확률이 높을 뿐"이라는 걸 마커 형태로도 구분. */
@@ -39,6 +45,8 @@ export const SPAWN_POINT_TYPE_BORDER_CLASS: Record<SpawnPointType, string> = {
   SECRET_ROOM: "border-solid",
   BUNKER: "border-solid",
   GARAGE_HOUSE: "border-dashed",
+  GLIDER: "border-solid",
+  GAS_STATION: "border-solid",
 };
 
 /**
@@ -61,6 +69,10 @@ export const SPAWN_POINT_TYPE_ICON_SVG: Record<SpawnPointType, string> = {
   // 공통점이 흐려진다.
   GARAGE_HOUSE:
     '<path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/><path d="M7 14h.01"/><path d="M17 14h.01"/><rect width="18" height="8" x="3" y="10" rx="2"/><path d="M5 18v2"/><path d="M19 18v2"/>',
+  GLIDER:
+    '<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
+  GAS_STATION:
+    '<path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0v-6.998a2 2 0 0 0-.59-1.42L18 5"/><path d="M14 21V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16"/><path d="M2 21h13"/><path d="M3 9h11"/>',
 };
 
 /** LayerTogglePanel 체크박스 키 → 실제 조회할 SpawnPointType 목록. 비밀의 방/지하벙커는 하나로 묶임. */
@@ -69,6 +81,8 @@ export const LAYER_TYPE_GROUPS: Record<keyof LayerToggles, SpawnPointType[]> = {
   boatFixed: ["BOAT_FIXED"],
   secretBunker: ["SECRET_ROOM", "BUNKER"],
   garageHouse: ["GARAGE_HOUSE"],
+  glider: ["GLIDER"],
+  gasStation: ["GAS_STATION"],
 };
 
 export const LAYER_LABELS: Record<keyof LayerToggles, string> = {
@@ -76,4 +90,6 @@ export const LAYER_LABELS: Record<keyof LayerToggles, string> = {
   boatFixed: "고정 보트",
   secretBunker: "비밀의 방 · 지하벙커",
   garageHouse: "차고집(랜덤젠)",
+  glider: "글라이더",
+  gasStation: "주유소",
 };

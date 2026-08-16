@@ -346,6 +346,276 @@
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
       "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 568.8,
+      "y": 1827.8,
+      "label": "글라이더 스폰 1(남서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 1517.3,
+      "y": 7.4,
+      "label": "글라이더 스폰 2(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 841.2,
+      "y": 41.5,
+      "label": "글라이더 스폰 3(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 1936.6,
+      "y": 203.3,
+      "label": "글라이더 스폰 4(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 390.7,
+      "y": 307.7,
+      "label": "글라이더 스폰 5(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 133.1,
+      "y": 495.1,
+      "label": "글라이더 스폰 6(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 1996.0,
+      "y": 539.1,
+      "label": "글라이더 스폰 7(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 2004.0,
+      "y": 910.8,
+      "label": "글라이더 스폰 8(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 222.2,
+      "y": 1527.3,
+      "label": "글라이더 스폰 9(남서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GLIDER",
+      "x": 1011.7,
+      "y": 1782.8,
+      "label": "글라이더 스폰 10(남서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1824.5,
+      "y": 35.6,
+      "label": "주유소 스폰 1(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 473.6,
+      "y": 160.8,
+      "label": "주유소 스폰 2(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1389.3,
+      "y": 191.7,
+      "label": "주유소 스폰 3(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 759.8,
+      "y": 294.4,
+      "label": "주유소 스폰 4(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1942.0,
+      "y": 376.8,
+      "label": "주유소 스폰 5(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 675.1,
+      "y": 702.7,
+      "label": "주유소 스폰 6(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1916.9,
+      "y": 809.5,
+      "label": "주유소 스폰 7(북동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 415.0,
+      "y": 860.7,
+      "label": "주유소 스폰 8(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 893.7,
+      "y": 898.8,
+      "label": "주유소 스폰 9(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 167.9,
+      "y": 957.4,
+      "label": "주유소 스폰 10(북서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 587.5,
+      "y": 1162.5,
+      "label": "주유소 스폰 11(남서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1859.8,
+      "y": 1221.1,
+      "label": "주유소 스폰 12(남동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 230.9,
+      "y": 1311.7,
+      "label": "주유소 스폰 13(남서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1220.9,
+      "y": 1313.5,
+      "label": "주유소 스폰 14(남동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1774.8,
+      "y": 1590.3,
+      "label": "주유소 스폰 15(남동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1085.4,
+      "y": 1603.6,
+      "label": "주유소 스폰 16(남동쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 540.2,
+      "y": 1625.6,
+      "label": "주유소 스폰 17(남서쪽)",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://bgms.kr/maps/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
     }
   ]
 }

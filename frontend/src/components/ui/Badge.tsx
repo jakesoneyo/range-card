@@ -8,6 +8,9 @@ const TONE_CLASSES = {
   boat: "border-marker-boat/60 bg-marker-boat/15 text-marker-boat",
   secret: "border-marker-secret/60 bg-marker-secret/15 text-marker-secret",
   garage: "border-marker-garage/60 bg-marker-garage/15 text-marker-garage",
+  glider: "border-marker-glider/60 bg-marker-glider/15 text-marker-glider",
+  gasStation:
+    "border-marker-gas-station/60 bg-marker-gas-station/15 text-marker-gas-station",
   sub: "border-border bg-panel-2 text-sub",
 } as const;
 

@@ -2,7 +2,15 @@
  * 우측 레이어 토글 사이드바 — 고정차량/고정보트/비밀의 방·지하벙커 체크박스 +
  * 박격포 계산기 모드 스위치. 사이드바 배경엔 미세한 대각선 그라디언트(panel-2 → 어두운 톤).
  */
-import { CarFront, Anchor, KeyRound, Warehouse, Crosshair } from "lucide-react";
+import {
+  CarFront,
+  Anchor,
+  KeyRound,
+  Warehouse,
+  Plane,
+  Fuel,
+  Crosshair,
+} from "lucide-react";
 import { useMapUiStore, type LayerToggles } from "../../stores/mapUiStore";
 import type { SpawnPoint } from "../../lib/schemas";
 import { LAYER_LABELS, LAYER_TYPE_GROUPS } from "../../lib/spawnPointMeta";
@@ -12,12 +20,15 @@ import { Panel } from "../ui/Panel";
 // 지도 마커 아이콘(SpawnPointMarker)과 동일한 세트로 통일 — 비밀의 방/지하벙커는
 // 둘 다 "열쇠로 들어간다"는 같은 설정이라 KeyRound 하나로 묶는다. 차고집은 지도 마커에선
 // CarFront(점선 테두리)를 재사용하지만, 사이드바에서는 고정차량과 시각적으로 헷갈리지
-// 않도록 Warehouse를 쓴다.
+// 않도록 Warehouse를 쓴다. 글라이더는 Plane, 주유소는 Fuel — 둘 다 직관적으로 매칭되는
+// 아이콘이 있어 별도 대체 로직 없이 그대로 사용.
 const LAYER_ICONS: Record<keyof LayerToggles, typeof CarFront> = {
   vehicleFixed: CarFront,
   boatFixed: Anchor,
   secretBunker: KeyRound,
   garageHouse: Warehouse,
+  glider: Plane,
+  gasStation: Fuel,
 };
 
 const LAYER_KEYS = Object.keys(LAYER_TYPE_GROUPS) as (keyof LayerToggles)[];

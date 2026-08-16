@@ -14,6 +14,10 @@ export interface LayerToggles {
   secretBunker: boolean;
   /** 100% 고정 스폰이 아닌 "확률 높은 차고 건물" — vehicleFixed와 성격이 달라 별도 토글. */
   garageHouse: boolean;
+  /** 모터글라이더 100% 고정 스폰(에란겔/미라마/론도). */
+  glider: boolean;
+  /** 차량·글라이더 연료 충전소 — 론도 전용. */
+  gasStation: boolean;
 }
 
 interface MapUiState {
@@ -38,6 +42,8 @@ export const useMapUiStore = create<MapUiState>((set) => ({
     boatFixed: true,
     secretBunker: true,
     garageHouse: true,
+    glider: true,
+    gasStation: true,
   },
   mode: "view",
   mortarPointA: null,

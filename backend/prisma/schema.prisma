@@ -29,6 +29,10 @@ enum SpawnPointType {
   // 100% 고정 스폰은 아니고 "확률이 높은 차고 건물" — 커뮤니티에서 흔히 "차고 포인트"라
   // 부르는 별도 카테고리. VEHICLE_FIXED와 성격이 달라 분리한다.
   GARAGE_HOUSE
+  // 모터글라이더 100% 고정 스폰 지점(에란겔/미라마/론도).
+  GLIDER
+  // 차량·글라이더 연료 충전소 — 론도에만 존재하는 지점형 인프라.
+  GAS_STATION
 }
 
 model SpawnPoint {
