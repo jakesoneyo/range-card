@@ -1,5 +1,5 @@
 /**
- * 스폰 포인트 1개를 지도 위 마커로 렌더링. 타입별 색상 다이아몬드 아이콘 + 상세 팝업.
+ * 스폰 포인트 1개를 지도 위 마커로 렌더링. 타입별 색상 아이콘(배경 배지 없음) + 상세 팝업.
  * Leaflet Marker는 컴포넌트 아이콘을 직접 지원하지 않아 divIcon HTML로 렌더링한다.
  */
 import { useMemo } from "react";
@@ -9,21 +9,22 @@ import { pixelToLatLng } from "../../lib/geo";
 import type { SpawnPoint } from "../../lib/schemas";
 import {
   SPAWN_POINT_TYPE_BADGE_TONE,
-  SPAWN_POINT_TYPE_BORDER_CLASS,
-  SPAWN_POINT_TYPE_DOT_CLASS,
+  SPAWN_POINT_TYPE_ICON_COLOR_VAR,
+  SPAWN_POINT_TYPE_ICON_OPACITY,
   SPAWN_POINT_TYPE_ICON_SVG,
   SPAWN_POINT_TYPE_LABEL,
 } from "../../lib/spawnPointMeta";
 import { Badge } from "../ui/Badge";
 
-// 마커 색 다이아몬드가 통일감 있게 45도 회전돼 있어서, 안의 아이콘은 반대로 -45도
-// 되돌려야 화면에 똑바로 서 보인다. 아이콘 색은 --color-bg(거의 검정) 고정 — 마커색
-// (골드/블루/레드/그린) 전부 중간 톤이라 어두운 아이콘이 밝은 아이콘보다 대비가 안정적이다.
-// GARAGE_HOUSE만 테두리가 점선 — "100% 고정 아님, 확률이 높을 뿐"이라는 걸 형태로도 구분.
+// 배경 배지(색 다이아몬드) 없이 타입색 아이콘만 그린다 — 지형을 가리는 면적을 최소화하기
+// 위한 선택(마커 스타일 후보 비교 후 확정). 클릭 히트박스는 여전히 22x22 유지(iconSize는
+// 그대로라 실제 눌리는 영역은 안 줄어듦, 시각적으로만 가벼워짐). 어두운 지형 위에서도
+// 보이도록 drop-shadow로 대비를 확보한다. GARAGE_HOUSE만 반투명 — "100% 고정 아님"을
+// 형태(예전엔 점선 테두리) 대신 옅은 아이콘으로 구분한다.
 function buildDivIcon(type: SpawnPoint["type"]) {
   // react-dom/server를 번들에 끌어들이지 않고 문자열로 직접 생성(divIcon은 HTML 문자열만 받음).
-  const html = `<span class="relative block h-[22px] w-[22px] rotate-45 border ${SPAWN_POINT_TYPE_BORDER_CLASS[type]} border-ink/80 ${SPAWN_POINT_TYPE_DOT_CLASS[type]}">
-    <svg class="absolute inset-0 m-auto h-3 w-3 -rotate-45" viewBox="0 0 24 24" fill="none" stroke="var(--color-bg)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${SPAWN_POINT_TYPE_ICON_SVG[type]}</svg>
+  const html = `<span class="flex h-[22px] w-[22px] items-center justify-center">
+    <svg class="h-[18px] w-[18px] drop-shadow-[0_1px_2px_rgba(0,0,0,0.85)]" style="opacity:${SPAWN_POINT_TYPE_ICON_OPACITY[type]}" viewBox="0 0 24 24" fill="none" stroke="${SPAWN_POINT_TYPE_ICON_COLOR_VAR[type]}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${SPAWN_POINT_TYPE_ICON_SVG[type]}</svg>
   </span>`;
   return L.divIcon({
     html,

@@ -38,15 +38,32 @@ export const SPAWN_POINT_TYPE_DOT_CLASS: Record<SpawnPointType, string> = {
   GAS_STATION: "bg-marker-gas-station",
 };
 
-/** GARAGE_HOUSE만 점선 테두리 — "100% 고정 아님, 확률이 높을 뿐"이라는 걸 마커 형태로도 구분. */
-export const SPAWN_POINT_TYPE_BORDER_CLASS: Record<SpawnPointType, string> = {
-  VEHICLE_FIXED: "border-solid",
-  BOAT_FIXED: "border-solid",
-  SECRET_ROOM: "border-solid",
-  BUNKER: "border-solid",
-  GARAGE_HOUSE: "border-dashed",
-  GLIDER: "border-solid",
-  GAS_STATION: "border-solid",
+/**
+ * 지도 마커(아이콘만, 배경 배지 없음)의 SVG stroke 색 — CSS 커스텀 프로퍼티를 그대로 참조해
+ * index.css 토큰과 항상 동기화된다. Badge 등 다른 곳은 여전히 DOT_CLASS(Tailwind 유틸)를 쓴다.
+ */
+export const SPAWN_POINT_TYPE_ICON_COLOR_VAR: Record<SpawnPointType, string> = {
+  VEHICLE_FIXED: "var(--color-marker-vehicle)",
+  BOAT_FIXED: "var(--color-marker-boat)",
+  SECRET_ROOM: "var(--color-marker-secret)",
+  BUNKER: "var(--color-marker-secret)",
+  GARAGE_HOUSE: "var(--color-marker-garage)",
+  GLIDER: "var(--color-marker-glider)",
+  GAS_STATION: "var(--color-marker-gas-station)",
+};
+
+/**
+ * GARAGE_HOUSE만 반투명 — 배경 배지가 없어진(아이콘만) 마커 체계에서 "100% 고정 아님,
+ * 확률이 높을 뿐"이라는 걸 형태(예전엔 점선 테두리) 대신 옅은 아이콘으로 구분한다.
+ */
+export const SPAWN_POINT_TYPE_ICON_OPACITY: Record<SpawnPointType, number> = {
+  VEHICLE_FIXED: 1,
+  BOAT_FIXED: 1,
+  SECRET_ROOM: 1,
+  BUNKER: 1,
+  GARAGE_HOUSE: 0.7,
+  GLIDER: 1,
+  GAS_STATION: 1,
 };
 
 /**
@@ -64,8 +81,8 @@ export const SPAWN_POINT_TYPE_ICON_SVG: Record<SpawnPointType, string> = {
     '<path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>',
   BUNKER:
     '<path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>',
-  // 여전히 차량이라 VEHICLE_FIXED와 같은 CarFront 아이콘을 쓰고, 점선 테두리로만 구분한다
-  // (SPAWN_POINT_TYPE_BORDER_CLASS 참고) — 아이콘까지 다르게 하면 오히려 "차량 계열"이라는
+  // 여전히 차량이라 VEHICLE_FIXED와 같은 CarFront 아이콘을 쓰고, 반투명도로만 구분한다
+  // (SPAWN_POINT_TYPE_ICON_OPACITY 참고) — 아이콘까지 다르게 하면 오히려 "차량 계열"이라는
   // 공통점이 흐려진다.
   GARAGE_HOUSE:
     '<path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/><path d="M7 14h.01"/><path d="M17 14h.01"/><rect width="18" height="8" x="3" y="10" rx="2"/><path d="M5 18v2"/><path d="M19 18v2"/>',
