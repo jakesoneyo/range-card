@@ -28,176 +28,6 @@
       "isActive": true
     },
     {
-      "type": "VEHICLE_FIXED",
-      "x": 762,
-      "y": 1059,
-      "label": "유린 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1268,
-      "y": 1650,
-      "label": "훙산 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 771,
-      "y": 32,
-      "label": "난추안 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1774,
-      "y": 324,
-      "label": "헤마이타운 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1618,
-      "y": 447,
-      "label": "무호판 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 379,
-      "y": 811,
-      "label": "자오틴 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1671,
-      "y": 819,
-      "label": "메이란 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1187,
-      "y": 842,
-      "label": "뱀부 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1225,
-      "y": 886,
-      "label": "테스트트랙 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 1681,
-      "y": 1205,
-      "label": "딘칭 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 699,
-      "y": 1326,
-      "label": "란포 인근 고정 차량",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 482,
-      "y": 824,
-      "label": "자오틴 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1639,
-      "y": 834,
-      "label": "메이란 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1364,
-      "y": 191,
-      "label": "라이안 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 991,
-      "y": 203,
-      "label": "난추안 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1544,
-      "y": 330,
-      "label": "무호판 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
-      "type": "GARAGE_HOUSE",
-      "x": 1801,
-      "y": 1401,
-      "label": "투링 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
-      "sourceUrl": "https://bgms.kr/maps/rondo",
-      "isActive": true,
-      "lastVerifiedAt": "2026-08-13T19:31:47.746Z"
-    },
-    {
       "type": "SECRET_ROOM",
       "x": 323,
       "y": 1609,
@@ -616,6 +446,426 @@
       "sourceUrl": "https://bgms.kr/maps/rondo",
       "isActive": true,
       "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 763.2,
+      "y": 47.7,
+      "label": "고정 차량 1(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 649.8,
+      "y": 664.8,
+      "label": "고정 차량 2(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 699.3,
+      "y": 1325.8,
+      "label": "고정 차량 3(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 321.3,
+      "y": 1282.8,
+      "label": "고정 차량 4(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 332.4,
+      "y": 420.6,
+      "label": "고정 차량 5(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1720.5,
+      "y": 334.0,
+      "label": "고정 차량 6(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1181.2,
+      "y": 232.8,
+      "label": "고정 차량 7(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 323.9,
+      "y": 1758.3,
+      "label": "고정 차량 8(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1104.0,
+      "y": 868.7,
+      "label": "고정 차량 9(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1643.9,
+      "y": 820.5,
+      "label": "고정 차량 10(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1812.0,
+      "y": 1432.6,
+      "label": "고정 차량 11(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 756.4,
+      "y": 1056.8,
+      "label": "고정 차량 12(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1577.2,
+      "y": 478.8,
+      "label": "고정 차량 13(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1653.3,
+      "y": 1199.0,
+      "label": "고정 차량 14(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 649.8,
+      "y": 1703.7,
+      "label": "고정 차량 15(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 943.0,
+      "y": 520.6,
+      "label": "고정 차량 16(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1714.8,
+      "y": 1565.6,
+      "label": "고정 차량 17(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1272.3,
+      "y": 1260.4,
+      "label": "고정 차량 18(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1250.3,
+      "y": 1627.7,
+      "label": "고정 차량 19(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 925.4,
+      "y": 1596.0,
+      "label": "차고집(랜덤젠) 1(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 270.6,
+      "y": 420.8,
+      "label": "차고집(랜덤젠) 2(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1200.8,
+      "y": 1770.3,
+      "label": "차고집(랜덤젠) 3(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1772.9,
+      "y": 354.3,
+      "label": "차고집(랜덤젠) 4(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 264.2,
+      "y": 1246.3,
+      "label": "차고집(랜덤젠) 5(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1782.3,
+      "y": 1555.4,
+      "label": "차고집(랜덤젠) 6(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1183.9,
+      "y": 877.0,
+      "label": "차고집(랜덤젠) 7(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1590.3,
+      "y": 831.4,
+      "label": "차고집(랜덤젠) 8(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 842.4,
+      "y": 1107.0,
+      "label": "차고집(랜덤젠) 9(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1766.2,
+      "y": 1389.9,
+      "label": "차고집(랜덤젠) 10(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 618.6,
+      "y": 248.3,
+      "label": "차고집(랜덤젠) 11(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 745.5,
+      "y": 608.7,
+      "label": "차고집(랜덤젠) 12(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1515.8,
+      "y": 340.7,
+      "label": "차고집(랜덤젠) 13(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 478.2,
+      "y": 825.6,
+      "label": "차고집(랜덤젠) 14(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 540.3,
+      "y": 1241.7,
+      "label": "차고집(랜덤젠) 15(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 377.9,
+      "y": 813.5,
+      "label": "차고집(랜덤젠) 16(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 381.5,
+      "y": 1714.6,
+      "label": "차고집(랜덤젠) 17(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 590.4,
+      "y": 726.4,
+      "label": "차고집(랜덤젠) 18(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1196.0,
+      "y": 1269.0,
+      "label": "차고집(랜덤젠) 19(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1346.1,
+      "y": 220.3,
+      "label": "차고집(랜덤젠) 20(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 978.8,
+      "y": 214.4,
+      "label": "차고집(랜덤젠) 21(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 1602.5,
+      "y": 1094.2,
+      "label": "차고집(랜덤젠) 22(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "GARAGE_HOUSE",
+      "x": 698.8,
+      "y": 1763.0,
+      "label": "차고집(랜덤젠) 23(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://20tips.tistory.com/v/65",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
     }
   ]
 }

@@ -8,36 +8,6 @@
   },
   "spawnPoints": [
     {
-      "type": "VEHICLE_FIXED",
-      "x": 1150,
-      "y": 1230,
-      "label": "로스 레오네스 고정 차량",
-      "description": "미라마 최대 도시 로스 레오네스 외곽 도로에 고정 스폰되는 차량. 엘 포조로 이어지는 도로가 초반 검문·로테이션 지점으로 자주 활용된다.",
-      "sourceUrl": "https://namu.wiki/w/미라마",
-      "lastVerifiedAt": "2026-08-13T18:19:01.069Z",
-      "isActive": true
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 420,
-      "y": 700,
-      "label": "엘 포조 고정 차량",
-      "description": "엘 포조 교도소 지역 도로변 고정 스폰 차량. 산 마르틴·바예 델 마르로 향하는 사거리와 가깝다.",
-      "sourceUrl": "https://namu.wiki/w/미라마",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
-      "type": "VEHICLE_FIXED",
-      "x": 900,
-      "y": 730,
-      "label": "산 마르틴 고정 차량",
-      "description": "산 마르틴 마을 도로변 고정 스폰 차량. 바예 델 마르 방면 도로와 만나는 사거리 인근.",
-      "sourceUrl": "https://namu.wiki/w/미라마",
-      "lastVerifiedAt": "2026-08-13T18:19:01.070Z",
-      "isActive": true
-    },
-    {
       "type": "GARAGE_HOUSE",
       "x": 921,
       "y": 716,
@@ -696,6 +666,406 @@
       "sourceUrl": "https://bgms.kr/maps/miramar",
       "isActive": true,
       "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1797.8,
+      "y": 839.5,
+      "label": "고정 차량 1(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1299.1,
+      "y": 1605.1,
+      "label": "고정 차량 2(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 649.7,
+      "y": 1824.4,
+      "label": "고정 차량 3(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 298.0,
+      "y": 508.3,
+      "label": "고정 차량 4(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 688.6,
+      "y": 1313.7,
+      "label": "고정 차량 5(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 132.5,
+      "y": 357.7,
+      "label": "고정 차량 6(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1576.2,
+      "y": 1517.3,
+      "label": "고정 차량 7(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1743.7,
+      "y": 411.6,
+      "label": "고정 차량 8(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 902.9,
+      "y": 1673.8,
+      "label": "고정 차량 9(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 604.2,
+      "y": 1558.9,
+      "label": "고정 차량 10(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1553.2,
+      "y": 1175.6,
+      "label": "고정 차량 11(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 372.1,
+      "y": 1494.0,
+      "label": "고정 차량 12(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1419.7,
+      "y": 721.3,
+      "label": "고정 차량 13(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 528.8,
+      "y": 1023.3,
+      "label": "고정 차량 14(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 238.8,
+      "y": 1251.2,
+      "label": "고정 차량 15(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1353.1,
+      "y": 106.8,
+      "label": "고정 차량 16(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1375.8,
+      "y": 357.7,
+      "label": "고정 차량 17(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 250.2,
+      "y": 1799.4,
+      "label": "고정 차량 18(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1638.4,
+      "y": 642.5,
+      "label": "고정 차량 19(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 121.2,
+      "y": 816.1,
+      "label": "고정 차량 20(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 423.6,
+      "y": 1187.1,
+      "label": "고정 차량 21(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1119.4,
+      "y": 582.6,
+      "label": "고정 차량 22(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1000.3,
+      "y": 291.2,
+      "label": "고정 차량 23(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 782.4,
+      "y": 153.4,
+      "label": "고정 차량 24(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 638.6,
+      "y": 357.7,
+      "label": "고정 차량 25(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1160.8,
+      "y": 1341.3,
+      "label": "고정 차량 26(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1695.4,
+      "y": 130.2,
+      "label": "고정 차량 27(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1240.8,
+      "y": 1428.1,
+      "label": "고정 차량 28(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1251.9,
+      "y": 910.6,
+      "label": "고정 차량 29(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1153.6,
+      "y": 1787.9,
+      "label": "고정 차량 30(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1661.1,
+      "y": 303.1,
+      "label": "고정 차량 31(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 770.7,
+      "y": 899.3,
+      "label": "고정 차량 32(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 988.8,
+      "y": 744.5,
+      "label": "고정 차량 33(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 902.8,
+      "y": 1057.9,
+      "label": "고정 차량 34(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1923.5,
+      "y": 744.4,
+      "label": "고정 차량 35(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 383.5,
+      "y": 767.6,
+      "label": "고정 차량 36(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 711.4,
+      "y": 559.3,
+      "label": "고정 차량 37(북서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 846.5,
+      "y": 1380.0,
+      "label": "고정 차량 38(남서쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1206.3,
+      "y": 1058.2,
+      "label": "고정 차량 39(남동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "VEHICLE_FIXED",
+      "x": 1519.0,
+      "y": 922.6,
+      "label": "고정 차량 40(북동쪽)",
+      "description": "경쟁전(e스포츠) 룰셋 기준 고정 스폰 — 커뮤니티 공유 이미지(색상/아이콘 배지)에서 점 좌표를 픽셀 클러스터링으로 직접 추출해 변환(눈대중 아님). BGMS 인터랙티브 지도가 아닌 정적 이미지 출처라 스크립트 마커 추출 방식과는 다르지만 동일하게 좌표 사실만 옮겨 찍음.",
+      "sourceUrl": "https://game.naver.com/lounge/Player_Unknowns_Battle_Grounds/board/detail/548850",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
     }
   ]
 }
