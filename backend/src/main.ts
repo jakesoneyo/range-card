@@ -24,7 +24,7 @@ async function bootstrap() {
   });
 
   const config = new DocumentBuilder()
-    .setTitle('RANGE CARD API')
+    .setTitle('NOOBG API')
     .setDescription(
       'PUBG 맵 인텔 오버레이(고정 스폰/보트/비밀방) + 공식 전적검색 프록시',
     )
