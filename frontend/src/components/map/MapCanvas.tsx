@@ -1,12 +1,20 @@
 /**
  * react-leaflet + L.CRS.Simple 기반 맵 뷰어. 맵 이미지가 아직 없는 동안은 단색 placeholder를
  * 보여주고, map.imageUrl이 실제로 로드되면 자동으로 ImageOverlay로 전환된다(코드 변경 불필요).
+ *
+ * 확대 화질: 기본(축소) 화면은 지금까지 쓰던 2048px 이미지(ImageOverlay)를 그대로 쓰고,
+ * 줌 0 이상(=CRS.Simple 스케일상 2048px 초과 배율)부터는 8192px 원본을 256px 타일로 쪼갠
+ * TileLayer로 바꿔치기한다. 전체를 다시 그리지 않고 화면에 보이는 타일만 받아오므로
+ * 축소 상태의 로딩량은 그대로, 확대했을 때만 필요한 만큼만 고화질을 받아온다.
+ * 타일은 `tools/make-map-tiles.py`로 미리 잘라 `public/maps/tiles/<slug>/`에 커밋해둔 것 —
+ * 아직 안 만든 맵은 TILED_MAPS에 없으면 기존처럼 2048px 하나로만 전체 줌 범위를 커버한다.
  */
 import { useMemo } from "react";
 import {
   ImageOverlay,
   MapContainer,
   Rectangle,
+  TileLayer,
   useMapEvent,
 } from "react-leaflet";
 import L, { CRS } from "leaflet";
@@ -14,6 +22,11 @@ import { latLngToPixel, type PixelPoint } from "../../lib/geo";
 import type { MapEntity, SpawnPoint } from "../../lib/schemas";
 import { useImageLoadState } from "../../lib/useImageLoadState";
 import { SpawnPointMarker } from "./SpawnPointMarker";
+
+/** 8192px 타일 세트가 준비된 맵 slug. */
+const TILED_MAPS = new Set(["erangel", "miramar", "rondo", "taego"]);
+/** 타일이 8192px 원본 기준이라, 2048px 기준 좌표계(zoom 0)에서 2^2배(=8192/2048) 지점이 네이티브 해상도. */
+const TILE_NATIVE_ZOOM = 2;
 
 function ClickHandler({
   imageSizePx,
@@ -72,7 +85,27 @@ export function MapCanvas({
         attributionControl={false}
       >
         {imageState === "loaded" ? (
-          <ImageOverlay url={map.imageUrl} bounds={bounds} />
+          <>
+            {/* ImageOverlay는 기본적으로 overlayPane(z≈400)에 그려져 tilePane(z≈200)보다
+                항상 위에 뜬다 — TileLayer를 따로 추가해도 그 밑에 깔려 안 보이는 문제가
+                생기므로, 같은 pane(tilePane)을 강제로 지정해 DOM 순서(=마운트 순서)로
+                쌓이게 만든다. ImageOverlay는 Leaflet의 일반 Layer라 minZoom/maxZoom으로
+                줌별 표시를 못 가른다(GridLayer 전용 옵션) — 그냥 항상 깔아두고, 아래
+                TileLayer가 zoom>=0부터 그 위를 완전히 덮어써서 화질을 대체한다. */}
+            <ImageOverlay url={map.imageUrl} bounds={bounds} pane="tilePane" />
+            {TILED_MAPS.has(map.slug) && (
+              <TileLayer
+                url={`/maps/tiles/${map.slug}/{x}_{y}.webp`}
+                tileSize={256}
+                bounds={bounds}
+                noWrap
+                minZoom={0}
+                maxZoom={3}
+                minNativeZoom={TILE_NATIVE_ZOOM}
+                maxNativeZoom={TILE_NATIVE_ZOOM}
+              />
+            )}
+          </>
         ) : (
           <Rectangle
             bounds={bounds}
