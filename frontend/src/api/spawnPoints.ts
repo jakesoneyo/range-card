@@ -2,7 +2,12 @@
  * 스폰 포인트(고정차량/고정보트/비밀의 방/지하벙커) 조회 및 관리자 CRUD.
  * 공개 조회는 GET /maps/:slug/spawn-points, 관리자 CRUD는 /spawn-points에 JWT Bearer로 접근.
  */
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import {
+  keepPreviousData,
+  useMutation,
+  useQuery,
+  useQueryClient,
+} from "@tanstack/react-query";
 import { apiClient } from "./client";
 import {
   SpawnPointListSchema,
@@ -29,6 +34,10 @@ export function usePublicSpawnPoints(
       return SpawnPointListSchema.parse(data);
     },
     enabled: Boolean(slug) && types.length > 0,
+    // 레이어 체크박스를 누를 때마다 type 필터(쿼리키)가 바뀌어 새 쿼리로 취급된다.
+    // keepPreviousData 없이는 새 응답이 올 때까지 마커 전체가 사라졌다 나타나는
+    // 깜빡임이 생긴다 — 이전 데이터를 유지한 채 조용히 교체.
+    placeholderData: keepPreviousData,
   });
 }
 
