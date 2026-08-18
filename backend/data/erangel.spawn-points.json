@@ -1366,6 +1366,106 @@
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
       "lastVerifiedAt": "2026-08-16T20:25:47.883354Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 222.2,
+      "y": 1173.1,
+      "label": "주유소 스폰 1(남서쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 377.9,
+      "y": 658.5,
+      "label": "주유소 스폰 2(북서쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 824.3,
+      "y": 1301.2,
+      "label": "주유소 스폰 3(남서쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1068.1,
+      "y": 526.3,
+      "label": "주유소 스폰 4(북동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1100.4,
+      "y": 253.5,
+      "label": "주유소 스폰 5(북동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1192.9,
+      "y": 599.8,
+      "label": "주유소 스폰 6(북동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1373.1,
+      "y": 1276.2,
+      "label": "주유소 스폰 7(남동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1395.5,
+      "y": 1461.8,
+      "label": "주유소 스폰 8(남동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1666.1,
+      "y": 275.5,
+      "label": "주유소 스폰 9(북동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "GAS_STATION",
+      "x": 1666.1,
+      "y": 1254.0,
+      "label": "주유소 스폰 10(남동쪽)",
+      "description": "주유소는 일반전 기준 맵 고정 시설(패치 34.1부터 에란겔에 구현, 이후 8x8 맵 전반에 적용 — 이전에 '론도 전용 모터글라이더 급유 인프라'로 판단했던 건 BGMS 크라우드소싱 데이터가 이 맵들에서 아직 0건이라 생긴 오판이었음, DATA-SOURCES.md 정정). 커뮤니티 가이드(Steam Community, iBakhmetNews x Ochkodrive 제작) 정적 이미지의 GAS station 핀 색상을 BFS 연결성분 클러스터링으로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
     }
   ]
 }
