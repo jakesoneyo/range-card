@@ -8,26 +8,6 @@
   },
   "spawnPoints": [
     {
-      "type": "BOAT_FIXED",
-      "x": 630,
-      "y": 1810,
-      "label": "린지앙 항구 고정 보트",
-      "description": "린지앙 마을의 항구·수상 레스토랑 양옆에 보트가 배치되어 있어 탈출/이동 수단으로 활용된다.",
-      "sourceUrl": "https://namu.wiki/w/론도(PUBG:%20BATTLEGROUNDS)",
-      "lastVerifiedAt": "2026-08-13T18:21:00.110Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 330,
-      "y": 1900,
-      "label": "롱호 호수 고정 보트",
-      "description": "맵 남서쪽에 위치한 호수(롱호) 인근의 보트 스폰 지점.",
-      "sourceUrl": "https://namu.wiki/w/론도(PUBG:%20BATTLEGROUNDS)",
-      "lastVerifiedAt": "2026-08-13T18:21:00.110Z",
-      "isActive": true
-    },
-    {
       "type": "SECRET_ROOM",
       "x": 323,
       "y": 1609,
@@ -866,6 +846,46 @@
       "sourceUrl": "https://20tips.tistory.com/v/65",
       "isActive": true,
       "lastVerifiedAt": "2026-08-17T12:01:43.504035Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1803.9,
+      "y": 1492.2,
+      "label": "고정 보트 1(남동쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 613.0,
+      "y": 1505.5,
+      "label": "고정 보트 2(남서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1728.5,
+      "y": 1536.4,
+      "label": "고정 보트 3(남동쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 662.3,
+      "y": 1790.6,
+      "label": "고정 보트 4(남서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/rondo",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
     }
   ]
 }

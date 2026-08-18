@@ -8,26 +8,6 @@
   },
   "spawnPoints": [
     {
-      "type": "BOAT_FIXED",
-      "x": 1400,
-      "y": 300,
-      "label": "삼포조선 화물선 옆 고정 보트",
-      "description": "삼포조선(조선소) 화물선 옆에 이동수단으로 배치된 고정 보트.",
-      "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
-      "isActive": true
-    },
-    {
-      "type": "BOAT_FIXED",
-      "x": 150,
-      "y": 1100,
-      "label": "하포 해안 고정 보트",
-      "description": "남동부 해안 마을 하포 인근 해안에 스폰되는 보트.",
-      "sourceUrl": "https://namu.wiki/w/태이고",
-      "lastVerifiedAt": "2026-08-13T18:21:31.380Z",
-      "isActive": true
-    },
-    {
       "type": "GARAGE_HOUSE",
       "x": 979,
       "y": 199,
@@ -1016,6 +996,106 @@
       "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3602174806",
       "isActive": true,
       "lastVerifiedAt": "2026-08-18T13:36:40.100758Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 214.4,
+      "y": 445.9,
+      "label": "고정 보트 1(북서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 134.7,
+      "y": 1048.4,
+      "label": "고정 보트 2(남서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 251.8,
+      "y": 1427.1,
+      "label": "고정 보트 3(남서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 601.3,
+      "y": 1769.6,
+      "label": "고정 보트 4(남서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1427.2,
+      "y": 597.3,
+      "label": "고정 보트 5(북동쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 993.3,
+      "y": 733.5,
+      "label": "고정 보트 6(북서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1448.2,
+      "y": 361.5,
+      "label": "고정 보트 7(북동쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 683.1,
+      "y": 137.3,
+      "label": "고정 보트 8(북서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 563.7,
+      "y": 1034.3,
+      "label": "고정 보트 9(남서쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
+    },
+    {
+      "type": "BOAT_FIXED",
+      "x": 1350.9,
+      "y": 358.9,
+      "label": "고정 보트 10(북동쪽)",
+      "description": "pubgmaps.gg(운영: Bitbyte AS)의 'Esports Boat'/'Esports Water' 카테고리(경쟁전 룰셋 100% 고정 보트) — BGMS·나무위키 둘 다 이 맵의 보트 데이터가 얇아서(각 2건, 텍스트 소량표본) 대체 출처로 썼음. 사이트 자체가 Canvas/WebGL 렌더링이라 마커를 DOM에서 직접 못 뽑아 — UI에서 이 카테고리만 켠 화면을 스크린샷하고, 핀의 고유 색을 픽셀 단위로 스캔해 BFS 연결성분 클러스터링으로 중심좌표를 추출(3세대 기법과 동일 원리, pubgmaps.gg의 내부 데이터 포맷 자체를 역공학하진 않음). 기존 나무위키 소량표본 좌표와 근접 일치하는 지점이 있어 교차검증 신뢰도 확인 후 이 좌표로 교체.",
+      "sourceUrl": "https://pubgmaps.gg/map/taego",
+      "isActive": true,
+      "lastVerifiedAt": "2026-08-18T14:03:21.328310Z"
     }
   ]
 }
