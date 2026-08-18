@@ -1,6 +1,6 @@
 /**
  * 이미지 URL의 실제 로드 성공/실패를 브라우저에서 프리로드로 확인하는 훅.
- * MapCanvas(뷰어)와 MapSelectPage(카드 썸네일) 양쪽에서 공유 — 컴포넌트 파일에 훅을
+ * MapCanvas(뷰어)에서 사용 — 컴포넌트 파일에 훅을
  * 같이 export하면 react-refresh fast-refresh 경고가 나서 별도 파일로 분리했다.
  */
 import { useEffect, useState } from "react";

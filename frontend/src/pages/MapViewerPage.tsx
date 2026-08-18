@@ -12,6 +12,7 @@ import { useAdminAuthStore } from "../stores/adminAuth.store";
 import { LAYER_TYPE_GROUPS } from "../lib/spawnPointMeta";
 import type { PixelPoint } from "../lib/geo";
 import { MapCanvas } from "../components/map/MapCanvas";
+import { MapTabBar } from "../components/map/MapTabBar";
 import { LayerTogglePanel } from "../components/map/LayerTogglePanel";
 import { MortarCalculatorPanel } from "../components/map/MortarCalculatorPanel";
 import { AdminLoginModal } from "../components/map/AdminLoginModal";
@@ -76,14 +77,14 @@ export function MapViewerPage() {
           to="/"
           className="mt-2 inline-block text-sm text-accent underline"
         >
-          맵 선택으로 돌아가기
+          메인으로 돌아가기
         </Link>
       </div>
     );
   }
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-6">
+    <div className="mx-auto flex h-[calc(100dvh-68px)] max-w-6xl flex-col px-6 py-6">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link to="/" className="text-sub hover:text-ink">
@@ -105,15 +106,19 @@ export function MapViewerPage() {
         </button>
       </div>
 
-      <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-[1fr_280px]">
-        <div className="h-[70vh] min-h-[420px]">
+      <div className="mt-3">
+        <MapTabBar />
+      </div>
+
+      <div className="mt-4 flex min-h-0 flex-1 flex-col gap-4 lg:flex-row">
+        <div className="min-h-[420px] min-w-0 flex-1">
           <MapCanvas
             map={map}
             spawnPoints={spawnPoints}
             onPixelClick={handleMapClick}
           />
         </div>
-        <aside>
+        <aside className="w-full shrink-0 overflow-y-auto lg:w-[280px]">
           <LayerTogglePanel
             spawnPoints={spawnPoints}
             isLoading={isSpawnPointsLoading}
