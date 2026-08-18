@@ -22,12 +22,16 @@ export interface LayerToggles {
 
 interface MapUiState {
   layers: LayerToggles;
+  /** 인게임 8x8 콜아웃 그리드(A1~H8) 오버레이 표시 여부 — 스폰 포인트 레이어와 달리
+   *  API 조회 필터가 아니라 순수 프론트 렌더링 토글이라 layers와 분리해뒀다. */
+  showGrid: boolean;
   mode: MapInteractionMode;
   mortarPointA: PixelPoint | null;
   mortarPointB: PixelPoint | null;
   /** admin-edit 모드에서 지도 클릭 시 좌표입력 폼에 채울 대기 좌표. */
   pendingAdminPoint: PixelPoint | null;
   toggleLayer: (key: keyof LayerToggles) => void;
+  toggleGrid: () => void;
   setMode: (mode: MapInteractionMode) => void;
   /** 계산 모드 클릭 처리 — A가 비어있으면 A로, 아니면 B로, 둘 다 차있으면 새로 A부터 시작. */
   registerMortarClick: (point: PixelPoint) => void;
@@ -45,6 +49,7 @@ export const useMapUiStore = create<MapUiState>((set) => ({
     glider: true,
     gasStation: true,
   },
+  showGrid: false,
   mode: "view",
   mortarPointA: null,
   mortarPointB: null,
@@ -53,6 +58,7 @@ export const useMapUiStore = create<MapUiState>((set) => ({
     set((state) => ({
       layers: { ...state.layers, [key]: !state.layers[key] },
     })),
+  toggleGrid: () => set((state) => ({ showGrid: !state.showGrid })),
   setMode: (mode) =>
     set({
       mode,

@@ -21,7 +21,9 @@ import L, { CRS } from "leaflet";
 import { latLngToPixel, type PixelPoint } from "../../lib/geo";
 import type { MapEntity, SpawnPoint } from "../../lib/schemas";
 import { useImageLoadState } from "../../lib/useImageLoadState";
+import { useMapUiStore } from "../../stores/mapUiStore";
 import { SpawnPointMarker } from "./SpawnPointMarker";
+import { GridOverlay } from "./GridOverlay";
 
 /** 8192px 타일 세트가 준비된 맵 slug. */
 const TILED_MAPS = new Set(["erangel", "miramar", "rondo", "taego"]);
@@ -51,6 +53,7 @@ export function MapCanvas({
   onPixelClick?: (point: PixelPoint) => void;
 }) {
   const imageState = useImageLoadState(map.imageUrl);
+  const showGrid = useMapUiStore((state) => state.showGrid);
   // 정사각형 맵이라 y축 반전 여부와 무관하게 바운딩박스 자체는 [0, imageSizePx]^2로 동일.
   const bounds: L.LatLngBoundsExpression = [
     [0, 0],
@@ -129,6 +132,7 @@ export function MapCanvas({
             imageSizePx={map.imageSizePx}
           />
         ))}
+        {showGrid && <GridOverlay imageSizePx={map.imageSizePx} />}
       </MapContainer>
 
       {imageState !== "loaded" && (

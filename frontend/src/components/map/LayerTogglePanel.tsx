@@ -10,6 +10,7 @@ import {
   Plane,
   Fuel,
   Crosshair,
+  Grid3x3,
 } from "lucide-react";
 import { useMapUiStore, type LayerToggles } from "../../stores/mapUiStore";
 import type { SpawnPoint } from "../../lib/schemas";
@@ -42,6 +43,8 @@ export function LayerTogglePanel({
 }) {
   const layers = useMapUiStore((state) => state.layers);
   const toggleLayer = useMapUiStore((state) => state.toggleLayer);
+  const showGrid = useMapUiStore((state) => state.showGrid);
+  const toggleGrid = useMapUiStore((state) => state.toggleGrid);
   const mode = useMapUiStore((state) => state.mode);
   const setMode = useMapUiStore((state) => state.setMode);
 
@@ -78,6 +81,19 @@ export function LayerTogglePanel({
           );
         })}
       </ul>
+
+      <div className="mt-4 border-t border-border pt-4">
+        <label className="flex cursor-pointer items-center gap-2 text-sm text-ink">
+          <input
+            type="checkbox"
+            checked={showGrid}
+            onChange={toggleGrid}
+            className="accent-accent h-4 w-4"
+          />
+          <Grid3x3 size={16} className="text-sub" />
+          그리드(A1~H8)
+        </label>
+      </div>
 
       <div className="mt-5 border-t border-border pt-4">
         <button
