@@ -1,7 +1,10 @@
 /**
  * 관리자 로그인 모달 — 전용 페이지 없이 지도 화면 구석 자물쇠 아이콘에서만 진입.
- * 데모 버튼도 admin/admin 값을 채워 동일한 정상 로그인 절차(useAdminLogin → bcrypt 검증)를
- * 호출할 뿐, 인증을 우회하는 별도 경로는 없다.
+ *
+ * 이 프로젝트는 워크스페이스 표준 "회원가입 없이 둘러보기" 데모 원클릭 로그인을 의도적으로
+ * 뺐다(다른 포폴 프로젝트와 다름) — Google AdSense 심사까지 노리는 실서비스 지향이라,
+ * 익명 방문자가 관리자 계정으로 원클릭 로그인 가능한 버튼이 노출되는 게 부적절하다고 판단.
+ * 관리자 로그인 자체(계정·bcrypt 검증)는 그대로 유지, UI 단의 원클릭 버튼만 제거.
  */
 import { type FormEvent, useState } from "react";
 import { X } from "lucide-react";
@@ -37,12 +40,6 @@ export function AdminLoginModal({
     // 실패 시 mutateAsync가 reject하는데, 화면 에러 표시는 loginMutation.isError로 이미
     // 처리되므로 여기서는 콘솔의 unhandled rejection만 막는다.
     submit(username, password).catch(() => {});
-  }
-
-  function handleDemoLogin() {
-    setUsername("admin");
-    setPassword("admin");
-    submit("admin", "admin").catch(() => {});
   }
 
   return (
@@ -103,20 +100,6 @@ export function AdminLoginModal({
             로그인
           </button>
         </form>
-
-        <div className="mt-4 border-t border-border pt-4 text-center">
-          <button
-            type="button"
-            onClick={handleDemoLogin}
-            disabled={loginMutation.isPending}
-            className="font-wordmark clip-corner-sm w-full border border-border bg-panel-2 py-2 text-sm text-ink transition-colors hover:border-accent hover:text-accent disabled:opacity-50"
-          >
-            회원가입 없이 둘러보기
-          </button>
-          <p className="mt-1.5 text-xs text-sub">
-            회원가입 없이 체험해 볼 수 있습니다.
-          </p>
-        </div>
       </Panel>
     </div>
   );
