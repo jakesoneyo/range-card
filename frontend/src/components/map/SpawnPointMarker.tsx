@@ -1,12 +1,20 @@
 /**
  * 스폰 포인트 1개를 지도 위 마커로 렌더링. 타입별 색상 아이콘(배경 배지 없음) + 상세 팝업.
  * Leaflet Marker는 컴포넌트 아이콘을 직접 지원하지 않아 divIcon HTML로 렌더링한다.
+ *
+ * 관리자 편집모드(로그인 + admin-edit)에서는 마커가 드래그 가능해지고, 놓는 순간 새 좌표로
+ * PATCH 요청을 보낸다 — 기존엔 삭제 후 재생성밖에 방법이 없던 걸 대체하는 재배치 기능.
+ * MapCanvas/MapViewerPage를 거치지 않고 이 컴포넌트가 직접 두 스토어(mapUiStore·adminAuth)를
+ * 구독하는 편이 프롭 드릴링보다 단순하다(LayerTogglePanel 등 다른 컴포넌트와 같은 패턴).
  */
 import { useMemo } from "react";
 import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
-import { pixelToLatLng } from "../../lib/geo";
+import { latLngToPixel, pixelToLatLng } from "../../lib/geo";
 import type { SpawnPoint } from "../../lib/schemas";
+import { useUpdateSpawnPoint } from "../../api/spawnPoints";
+import { useMapUiStore } from "../../stores/mapUiStore";
+import { useAdminAuthStore } from "../../stores/adminAuth.store";
 import {
   SPAWN_POINT_TYPE_BADGE_TONE,
   SPAWN_POINT_TYPE_ICON_COLOR_VAR,
@@ -44,8 +52,33 @@ export function SpawnPointMarker({
   const icon = useMemo(() => buildDivIcon(spawnPoint.type), [spawnPoint.type]);
   const latlng = pixelToLatLng(spawnPoint.x, spawnPoint.y, imageSizePx);
 
+  const mode = useMapUiStore((state) => state.mode);
+  const token = useAdminAuthStore((state) => state.token);
+  const isDraggable = mode === "admin-edit" && Boolean(token);
+  const updateMutation = useUpdateSpawnPoint(token);
+
+  function handleDragEnd(event: L.DragEndEvent) {
+    const newLatLng = (event.target as L.Marker).getLatLng();
+    const point = latLngToPixel(
+      { lat: newLatLng.lat, lng: newLatLng.lng },
+      imageSizePx,
+    );
+    updateMutation.mutate({
+      id: spawnPoint.id,
+      patch: {
+        x: Math.round(point.x * 10) / 10,
+        y: Math.round(point.y * 10) / 10,
+      },
+    });
+  }
+
   return (
-    <Marker position={[latlng.lat, latlng.lng]} icon={icon}>
+    <Marker
+      position={[latlng.lat, latlng.lng]}
+      icon={icon}
+      draggable={isDraggable}
+      eventHandlers={isDraggable ? { dragend: handleDragEnd } : undefined}
+    >
       <Popup>
         <div className="font-body space-y-1.5 text-sm">
           <Badge tone={SPAWN_POINT_TYPE_BADGE_TONE[spawnPoint.type]}>

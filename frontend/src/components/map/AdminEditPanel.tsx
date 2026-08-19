@@ -69,7 +69,8 @@ export function AdminEditPanel({
     <Panel className="mt-4 p-4">
       <h2 className="font-wordmark text-sm text-sub">관리자 편집</h2>
       <p className="mt-1 text-xs text-sub">
-        지도를 클릭해 새 좌표를 지정하세요.
+        지도를 클릭해 새 좌표를 지정하세요. 기존 핀은 드래그하면 바로
+        재배치됩니다.
       </p>
 
       {pendingAdminPoint && (
