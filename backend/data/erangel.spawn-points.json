@@ -649,10 +649,10 @@
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1461,
-      "y": 69,
+      "x": 1514,
+      "y": 99.4,
       "label": "카메시키 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음). [2026-08-19 재검증: 8192px 고화질 타일로 재확인, 근처 건물군으로 좌표 보정]",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
       "lastVerifiedAt": "2026-08-13T19:31:47.699Z"
@@ -799,10 +799,10 @@
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 1393,
-      "y": 358,
+      "x": 1453.1,
+      "y": 300,
       "label": "스탈베르 인근 차고집",
-      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음).",
+      "description": "BGMS(bgms.kr) Leaflet 마커의 실제 좌표값을 스크립트로 직접 추출해 변환(픽셀 눈대중 아님, 이미지 자체는 저장/사용하지 않음). [2026-08-19 재검증: 8192px 고화질 타일로 재확인, 근처 건물군으로 좌표 보정]",
       "sourceUrl": "https://bgms.kr/maps/erangel",
       "isActive": true,
       "lastVerifiedAt": "2026-08-13T19:31:47.699Z"

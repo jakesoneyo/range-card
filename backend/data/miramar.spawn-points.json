@@ -29,13 +29,13 @@
     },
     {
       "type": "GARAGE_HOUSE",
-      "x": 286,
-      "y": 1698,
+      "x": 312.5,
+      "y": 1758.5,
       "label": "프리즌 차고집",
-      "description": "미라마에서 차고(꿀창고) 밀집도가 가장 높은 3개 지역 중 하나. 섬 남서쪽 프리즌 내부.",
+      "description": "나무위키 텍스트 출처. 2026-08-19 8192px 고화질 재검증 — 기존 좌표는 바위지대 위였고, 실제 프리즌(Prison) POI 건물군 쪽으로 좌표 보정.",
       "sourceUrl": "https://namu.wiki/w/미라마",
       "isActive": true,
-      "lastVerifiedAt": "2026-08-13T18:27:42.853Z"
+      "lastVerifiedAt": "2026-08-19T00:00:00.000Z"
     },
     {
       "type": "GLIDER",
