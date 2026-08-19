@@ -1,6 +1,11 @@
 /**
- * 스폰 포인트 1개를 지도 위 마커로 렌더링. 타입별 색상 아이콘(배경 배지 없음) + 상세 팝업.
- * Leaflet Marker는 컴포넌트 아이콘을 직접 지원하지 않아 divIcon HTML로 렌더링한다.
+ * 스폰 포인트 1개를 지도 위 마커로 렌더링. 타입별 색상 물방울 핀(BGMS 스타일 — 뾰족한 끝이
+ * 정확한 지점을 가리킴) + 상세 팝업. Leaflet Marker는 컴포넌트 아이콘을 직접 지원하지 않아
+ * divIcon HTML로 렌더링한다.
+ *
+ * 핀 모양은 실제 라이브 지도 위에 여러 후보(클래식 물방울/각진 방패형/미니멀 핀닷 등)를
+ * 얹어보고 비교해서 확정했다 — 배경을 옅은 색 틴트+외곽선만 남기고 채움을 거의 비워
+ * 밑에 깔린 지형이 최대한 드러나게 했다. 스크린샷은 captures/pin-design-candidates/에 보관.
  *
  * 관리자 편집모드(로그인 + admin-edit)에서는 마커가 드래그 가능해지고, 놓는 순간 새 좌표로
  * PATCH 요청을 보낸다 — 기존엔 삭제 후 재생성밖에 방법이 없던 걸 대체하는 재배치 기능.
@@ -24,21 +29,24 @@ import {
 } from "../../lib/spawnPointMeta";
 import { Badge } from "../ui/Badge";
 
-// 배경 배지(색 다이아몬드) 없이 타입색 아이콘만 그린다 — 지형을 가리는 면적을 최소화하기
-// 위한 선택(마커 스타일 후보 비교 후 확정). 클릭 히트박스는 여전히 22x22 유지(iconSize는
-// 그대로라 실제 눌리는 영역은 안 줄어듦, 시각적으로만 가벼워짐). 어두운 지형 위에서도
-// 보이도록 drop-shadow로 대비를 확보한다. GARAGE_HOUSE만 반투명 — "100% 고정 아님"을
-// 형태(예전엔 점선 테두리) 대신 옅은 아이콘으로 구분한다.
+// 물방울 외곽선 + 타입색 옅은 틴트(채움은 살짝만, 지형이 비쳐 보이게). 뾰족한 끝(iconAnchor
+// 하단 중앙)이 실제 좌표 지점이다 — 아이콘 중심이 지점이던 기존 방식보다 "정확한 한 곳"이라는
+// 느낌이 분명해진다.
 function buildDivIcon(type: SpawnPoint["type"]) {
-  // react-dom/server를 번들에 끌어들이지 않고 문자열로 직접 생성(divIcon은 HTML 문자열만 받음).
-  const html = `<span class="flex h-[22px] w-[22px] items-center justify-center">
-    <svg class="h-[18px] w-[18px] drop-shadow-[0_1px_2px_rgba(0,0,0,0.85)]" style="opacity:${SPAWN_POINT_TYPE_ICON_OPACITY[type]}" viewBox="0 0 24 24" fill="none" stroke="${SPAWN_POINT_TYPE_ICON_COLOR_VAR[type]}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${SPAWN_POINT_TYPE_ICON_SVG[type]}</svg>
-  </span>`;
+  const color = SPAWN_POINT_TYPE_ICON_COLOR_VAR[type];
+  const opacity = SPAWN_POINT_TYPE_ICON_OPACITY[type];
+  const html = `<div style="position:relative;width:25px;height:33px">
+    <svg width="25" height="33" viewBox="0 0 24 32" style="filter:drop-shadow(0 1px 3px rgba(0,0,0,0.7))">
+      <path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20C24 5.4 18.6 0 12 0z" fill="${color}" fill-opacity="${0.18 * opacity}" stroke="${color}" stroke-opacity="${opacity}" stroke-width="1.6"/>
+      <circle cx="12" cy="12" r="8.5" fill="var(--color-bg)" fill-opacity="0.75"/>
+    </svg>
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="position:absolute;top:4px;left:6px">${SPAWN_POINT_TYPE_ICON_SVG[type]}</svg>
+  </div>`;
   return L.divIcon({
     html,
     className: "",
-    iconSize: [22, 22],
-    iconAnchor: [11, 11],
+    iconSize: [25, 33],
+    iconAnchor: [12.5, 33],
   });
 }
 
